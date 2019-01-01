@@ -1,0 +1,510 @@
+<!DOCTYPE html><html><head><title>第三天css笔记</title><meta charset='utf-8'><link href='https://cdn.maxiang.io/res-min/themes/marxico.css' rel='stylesheet'><style>
+.note-content  {font-family: ADMUI3Lg, 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;}
+
+</style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><ul>
+<li><a href="#第三天css笔记">第三天css笔记</a><ul>
+<li><a href="#1复习">1、复习</a></li>
+<li><a href="#2今天所学">2、今天所学</a><ul>
+<li><a href="#1表示一个元素的宽度width例如width10px">1、表示一个元素的宽度：width，例如：‘width：10px；’</a></li>
+<li><a href="#2表示一个元素的高度height-例如height100px">2、表示一个元素的高度：height, 例如：”height:100px”</a></li>
+<li><a href="#3让一个块级元素水平居中的方法">3、让一个块级元素水平居中的方法：</a></li>
+<li><a href="#4让文字水平居中">4、让文字水平居中</a></li>
+<li><a href="#5通常一些标签会带有默认的margin值或者padding值会有白色的多余的块咱们在写页面的时候通常不需要所以我们需要先把他们清除掉在后面按照需求咱们自己再设置">5、通常一些标签会带有默认的margin值或者padding值，会有白色的多余的块，咱们在写页面的时候，通常不需要，所以我们需要先把他们清除掉，在后面按照需求，咱们自己再设置。</a></li>
+<li><a href="#6文字缩进">6、文字缩进</a></li>
+<li><a href="#7清楚列表中默认带的样式不管是ul还是ol我们在做项目的时候通通不用它的默认样式因为没有办法对它进行控制我们会自己去按照设计需求去做如何清除">7、清楚列表中默认带的样式，不管是ul，还是ol，我们在做项目的时候，通通不用它的默认样式，因为没有办法对它进行控制，我们会自己去按照设计需求去做。如何清除？</a></li>
+<li><a href="#8清楚a标签默认自带的下划线">8、清楚a标签默认自带的下划线</a></li>
+<li><a href="#9什么是块级元素什么行内元素什么是行内块">9、什么是块级元素，什么行内元素，什么是行内块？</a></li>
+<li><a href="#10分类">10、分类</a></li>
+<li><a href="#11-display块级元素和行内块元素的相互转换">11、 display，块级元素和行内块元素的相互转换：</a></li>
+</ul>
+</li>
+<li><a href="#3面试题让一个元素消失的几种方法">3、面试题：让一个元素消失的几种方法</a></li>
+<li><a href="#让文字垂直居中">让文字垂直居中</a></li>
+<li><a href="#设置文字颜色">设置文字颜色</a></li>
+<li><a href="#设置字体大小字号">设置字体大小(字号)</a></li>
+<li><a href="#珠峰故事案例">珠峰故事案例</a></li>
+<li><a href="#图片列表案例">图片列表案例</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<h2 id="第三天css笔记">第三天css笔记</h2>
+
+<h3 id="1复习">1、复习</h3>
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>块级元素，大盒子，只要用来盛放其它元素<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>行内块，主要用来划分小块的<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>粗体<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>粗体<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>斜体<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>斜体<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">big</span>&gt;</span>增大字号<span class="hljs-tag">&lt;/<span class="hljs-name">big</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">small</span>&gt;</span>减小一号<span class="hljs-tag">&lt;/<span class="hljs-name">small</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">del</span>&gt;</span>删除<span class="hljs-tag">&lt;/<span class="hljs-name">del</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-comment">&lt;!-- 分割线 --&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> /&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-comment">&lt;!--预格式化标签--&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span>
+</div><div class="hljs-line">        ********
+</div><div class="hljs-line">           ***
+</div><div class="hljs-line">        ***********
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;/<span class="hljs-name">pre</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-comment">&lt;!--三大列表--&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">dl</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">dt</span>&gt;</span>标题<span class="hljs-tag">&lt;/<span class="hljs-name">dt</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>描述<span class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>描述<span class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>描述<span class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;/<span class="hljs-name">dl</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<h3 id="2今天所学">2、今天所学</h3>
+
+
+
+<h4 id="1表示一个元素的宽度width例如width10px">1、表示一个元素的宽度：width，例如：‘width：10px；’</h4>
+
+
+
+<h4 id="2表示一个元素的高度height-例如height100px">2、表示一个元素的高度：height, 例如：”height:100px”</h4>
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"> <span class="hljs-comment">&lt;!--</span>
+</div><div class="hljs-line"><span class="hljs-comment">     width：100px；    //宽度</span>
+</div><div class="hljs-line"><span class="hljs-comment">     height：100px；  //高度</span>
+</div><div class="hljs-line"><span class="hljs-comment">     background-color:green; //背景颜色</span>
+</div><div class="hljs-line"><span class="hljs-comment">   --&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width:100px;height:100px;background-color:green"</span>&gt;</span>大盒子<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div></code></pre>
+
+
+
+<h4 id="3让一个块级元素水平居中的方法">3、让一个块级元素水平居中的方法：</h4>
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">       <span class="hljs-comment">/*标签选择器</span></span>
+</div><div class="hljs-line"><span class="css">         margin:0 auto; 代表的意思：上下的margin值为0，左右自动计算，写完这个属性，这个盒子就会在父元素的盒子中水平居中，这个是块级元素经常用到的。</span>
+</div><div class="hljs-line"><span class="css"></span>
+</div><div class="hljs-line"><span class="css">       */</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">div</span>{</span>
+</div><div class="hljs-line"><span class="css">           <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span> auto;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<blockquote>
+  <p>案例：</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>div<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-class">.box1</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">500px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">500px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-color</span>:green;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-class">.box2</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-color</span>:red;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span> auto;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box1"</span>&gt;</span>
+</div><div class="hljs-line">       <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"box2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="4让文字水平居中">4、让文字水平居中</h4>
+
+<blockquote>
+  <p>text-align:left/right/center; （左，右，居中）默认是left （居左）</p>
+</blockquote>
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">p</span>{</span>
+</div><div class="hljs-line"><span class="css">          <span class="hljs-attribute">background-color</span>:green;</span>
+</div><div class="hljs-line"><span class="css">          <span class="hljs-attribute">text-align</span>:center;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css"></span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>第三天css课程<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div></code></pre>
+
+
+
+<h4 id="5通常一些标签会带有默认的margin值或者padding值会有白色的多余的块咱们在写页面的时候通常不需要所以我们需要先把他们清除掉在后面按照需求咱们自己再设置">5、通常一些标签会带有默认的margin值或者padding值，会有白色的多余的块，咱们在写页面的时候，通常不需要，所以我们需要先把他们清除掉，在后面按照需求，咱们自己再设置。</h4>
+
+<blockquote>
+  <ul><li><p>被叫做“通配符”，代表所有的元素，</p></li>
+  </ul>
+</blockquote>
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">       <span class="hljs-comment">/*</span></span>
+</div><div class="hljs-line"><span class="css">        * 代表通配符，选中所有的元素</span>
+</div><div class="hljs-line"><span class="css"></span>
+</div><div class="hljs-line"><span class="css">       */</span>
+</div><div class="hljs-line"><span class="css">        *{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">p</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-color</span>:green;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">text-align</span>:center;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="6文字缩进">6、文字缩进</h4>
+
+<blockquote>
+  <p>text-indent:2em;代表的意思是：文字向后缩进两个字的距离，也可以设置具体的像素值</p>
+</blockquote>
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">    <span class="hljs-selector-tag">p</span>{
+</div><div class="hljs-line">            <span class="hljs-attribute">background-color</span>:green;
+</div><div class="hljs-line">            <span class="hljs-attribute">text-align</span>:center;
+</div><div class="hljs-line">            <span class="hljs-attribute">text-indent</span>:<span class="hljs-number">2em</span>;
+</div><div class="hljs-line">        }
+</div></code></pre>
+
+
+
+<h4 id="7清楚列表中默认带的样式不管是ul还是ol我们在做项目的时候通通不用它的默认样式因为没有办法对它进行控制我们会自己去按照设计需求去做如何清除">7、清楚列表中默认带的样式，不管是ul，还是ol，我们在做项目的时候，通通不用它的默认样式，因为没有办法对它进行控制，我们会自己去按照设计需求去做。如何清除？</h4>
+
+<pre class="prettyprint hljs-dark"><code class="hljs dsconfig"><div class="hljs-line">    &lt;<span class="hljs-string">style </span><span class="hljs-string">type=</span><span class="hljs-string">"text/css"</span>&gt;
+</div><div class="hljs-line">        <span class="hljs-string">ul,</span><span class="hljs-string">li,</span><span class="hljs-string">ol{</span>
+</div><div class="hljs-line">            <span class="hljs-built_in">list-style:none;</span>
+</div><div class="hljs-line">        }
+</div><div class="hljs-line">    &lt;/<span class="hljs-string">style&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="8清楚a标签默认自带的下划线">8、清楚a标签默认自带的下划线</h4>
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">a</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">text-decoration</span>:none;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div></code></pre>
+
+
+
+<h4 id="9什么是块级元素什么行内元素什么是行内块">9、什么是块级元素，什么行内元素，什么是行内块？</h4>
+
+<blockquote>
+  <p>块级元素的特点： <br>
+              1、很霸道，独占一行，不允许其他元素和他共占一行; <br>
+              2、可以设置width，height，能够起作用； <br>
+              3、排列方式：从上到下</p>
+  
+  <p>行内元素的特点： <br>
+  1、可以和其它的行内元素共占一行 <br>
+  2、不修改dispaly的情况下，就是说默认情况下，给它设置宽、高，不起作用 <br>
+  3、从左到右</p>
+  
+  <p>行内块的特点：例如：img <br>
+      1、可以和其它的行内元素共占一行 <br>
+      2、给它设置宽、高，起作用 <br>
+      3、从左到右 </p>
+</blockquote>
+
+
+
+<h4 id="10分类">10、分类</h4>
+
+<blockquote>
+  <p>块级元素：</p>
+  
+  <ul><li><p>p</p></li>
+  <li><p>h1-h6</p></li>
+  <li><p>div</p></li>
+  <li><p>ul</p></li>
+  <li><p>ol</p></li>
+  <li><p>li</p></li>
+  <li><p>dt</p></li>
+  <li><p>dd</p></li>
+  <li><p>pre</p></li>
+  </ul>
+  
+  <p>行内元素：</p>
+  
+  <ul><li><p>a</p></li>
+  <li><p>span</p></li>
+  <li><p>b、storng</p></li>
+  <li><p>i 、em</p></li>
+  <li><p>big</p></li>
+  <li><p>small</p></li>
+  <li><p>del</p></li>
+  </ul>
+  
+  <p>行内块</p>
+  
+  <ul><li><p>img</p></li>
+  <li><p>iframe</p></li>
+  </ul>
+  
+  </blockquote>
+
+
+<h4 id="11-display块级元素和行内块元素的相互转换">11、 display，块级元素和行内块元素的相互转换：</h4>
+
+<ul><li><p>行内元素转换块级元素：display：block;</p></li>
+<li><p>行内元素转换行内块：   display：inline-block;</p></li>
+<li><p>转换为行内元素：           display：inline；//这个基本不用，在做项目的时候如果是行内元素，直接用行内标签即可</p></li>
+<li><p>消失 ：display：none</p></li>
+</ul>
+
+<h3 id="3面试题让一个元素消失的几种方法">3、面试题：让一个元素消失的几种方法</h3>
+
+<p>1、display：none;  // 常用 <br>
+2、 visibility: hidden;   // 常用 <br>
+3、改变透明度：opacity: 0;  // 常用 <br>
+4、改变背景色（只是取巧，除非是没文字内容的);</p>
+
+<blockquote>
+  <p><strong>display:none</strong>   和 <strong>visibility: hidden</strong> 有什么区别？ <br>
+  display:none, 不占位，visibility: hidden 虽然消失不见了，但是它的位置还在，一个控制dom元素，一个控制css</p>
+</blockquote>
+
+
+
+<h3 id="让文字垂直居中">让文字垂直居中</h3>
+
+<blockquote>
+  <p>让高度等于行高</p>
+</blockquote>
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        *{<span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;<span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>;}</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">ul</span> <span class="hljs-selector-tag">li</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">30px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">line-height</span>: <span class="hljs-number">30px</span>;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css"></span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="设置文字颜色">设置文字颜色</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">  <span class="hljs-selector-tag">div</span>{
+</div><div class="hljs-line">    <span class="hljs-attribute">color</span>:red;
+</div><div class="hljs-line">  }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="设置字体大小字号">设置字体大小(字号)</h3>
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line"> <span class="hljs-selector-tag">div</span>{
+</div><div class="hljs-line">    <span class="hljs-attribute">font-size</span>:<span class="hljs-number">14px</span>;
+</div><div class="hljs-line"> }
+</div></code></pre>
+
+
+
+<h3 id="珠峰故事案例">珠峰故事案例</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Title<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        *{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">ul</span>,<span class="hljs-selector-tag">ol</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">list-style</span>: none;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-class">.main</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">830px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">507px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span> auto;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-class">.top</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">45px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">line-height</span>: <span class="hljs-number">45px</span>;</span>
+</div><div class="hljs-line"><span class="css">           <span class="hljs-attribute">font-size</span>:<span class="hljs-number">18px</span>;</span>
+</div><div class="hljs-line"><span class="css">           <span class="hljs-attribute">text-indent</span>: <span class="hljs-number">10px</span>;</span>
+</div><div class="hljs-line"><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">a</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">font-size</span>:<span class="hljs-number">14px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">color</span>:<span class="hljs-number">#00a67c</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">text-decoration</span>: none;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-class">.bottom</span> <span class="hljs-selector-tag">span</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">15px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">15px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">line-height</span>:<span class="hljs-number">15px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background</span>:<span class="hljs-number">#fd8c84</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">font-size</span>:<span class="hljs-number">12px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">color</span>:<span class="hljs-number">#fff</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">display</span>:inline-block;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">text-align</span>: center;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">ul</span> <span class="hljs-selector-tag">li</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">30px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">line-height</span>:<span class="hljs-number">30px</span>;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"main"</span>&gt;</span>
+</div><div class="hljs-line">       <span class="hljs-tag">&lt;<span class="hljs-name">h3</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"top"</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>珠峰故事<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>阅读更多<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+</div><div class="hljs-line">       <span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+</div><div class="hljs-line">       <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> /&gt;</span>
+</div><div class="hljs-line">       <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bottom"</span>&gt;</span>
+</div><div class="hljs-line">           <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>珠峰培训，css课程。。。。。。。。。。。。。。。。。。。。。。。。<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">           <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>珠峰培训，css课程。。。。。。。。。。。。。。。。。。。。。。。。<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">           <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>珠峰培训，css课程。。。。。。。。。。。。。。。。。。。。。。。。<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">           <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>珠峰培训，css课程。。。。。。。。。。。。。。。。。。。。。。。。<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">           <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>珠峰培训，css课程。。。。。。。。。。。。。。。。。。。。。。。。<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">           <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>珠峰培训，css课程。。。。。。。。。。。。。。。。。。。。。。。。<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">           <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>珠峰培训，css课程。。。。。。。。。。。。。。。。。。。。。。。。<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">           <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>珠峰培训，css课程。。。。。。。。。。。。。。。。。。。。。。。。<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">       <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="图片列表案例">图片列表案例</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line">  <span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Title<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        *{<span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;<span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>;}</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">ul</span>,<span class="hljs-selector-tag">ol</span>{<span class="hljs-attribute">list-style</span>: none;}</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">a</span>{<span class="hljs-attribute">text-decoration</span>: none;}</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-class">.main</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">830px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">485px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span> auto;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">p</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">font-size</span>:<span class="hljs-number">14px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">text-align</span>: center;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">li</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">186px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">200px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">display</span>: inline-block;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">margin-left</span>: <span class="hljs-number">16px</span>;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line">  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"main"</span>&gt;</span>
+</div><div class="hljs-line">     <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">         <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"zf.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span>&gt;</span>
+</div><div class="hljs-line">         <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2017年第一期教学活动<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line">     <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">     <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"zf.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2017年第一期教学活动<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line">     <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">     <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"zf.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2017年第一期教学活动<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line">     <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"zf.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2017年第一期教学活动<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"zf.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2017年第一期教学活动<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"zf.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2017年第一期教学活动<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"zf.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2017年第一期教学活动<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"zf.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span>&gt;</span>
+</div><div class="hljs-line">          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2017年第一期教学活动<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre></div></body></html>
