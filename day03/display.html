@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display</title>
+    <style>
+        span{
+            width:100px;
+            height:100px;
+            background:green;
+            /* 转换成块*/
+            /*display:block;*/
+            /*转换成行内块*/
+            display:inline-block;
+        }
+        div{
+            width:100px;
+            height:100px;
+            background:pink;
+            /* 这一种不用，你既然把它转换成行内元素了，你直接用行内即可*/
+            display:inline;
+        }
+        p{
+            width:100px;
+            height:100px;
+            background:gold;
+            /*让一个元素消失不见了*/
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <span>我是span</span>
+    <i>我是i</i>
+    <div>我是div</div>
+     <em>我是em</em>
+     <p>我是段落p</p>
+</body>
+</html>

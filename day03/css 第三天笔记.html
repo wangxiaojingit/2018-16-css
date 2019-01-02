@@ -1,0 +1,305 @@
+<!DOCTYPE html><html><head><title>css 第三天笔记</title><meta charset='utf-8'><link href='https://cdn.maxiang.io/res-min/themes/marxico.css' rel='stylesheet'><style>
+.note-content  {font-family: ADMUI3Lg, 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;}
+
+</style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><ul>
+<li><a href="#css-第三天笔记">css 第三天笔记</a><ul>
+<li><a href="#给元素设置宽度-高度">给元素设置宽度 高度</a></li>
+<li><a href="#文字大小font-size">文字大小：font-size</a></li>
+<li><a href="#文字颜色color">文字颜色：color</a></li>
+<li><a href="#文字水平居中">文字水平居中</a></li>
+<li><a href="#文字垂直居中">文字垂直居中</a></li>
+<li><a href="#给盒子设置边框">给盒子设置边框</a></li>
+<li><a href="#清除网页中各个元素自带的margin和padding">清除网页中各个元素自带的margin和padding</a></li>
+<li><a href="#清除a标签自带的下划线">清除a标签自带的下划线</a></li>
+<li><a href="#清除ulol列表前面默认的样式">清除ul，ol列表前面默认的样式</a></li>
+<li><a href="#让一个盒子在它的父级中水平居中">让一个盒子在它的父级中水平居中</a></li>
+<li><a href="#文字缩进text-indent值">文字缩进：text-indent：值</a></li>
+<li><a href="#块级元素">块级元素</a></li>
+<li><a href="#行内元素">行内元素</a></li>
+<li><a href="#行内块元素">行内块元素</a></li>
+<li><a href="#标签汇总">标签汇总：</a></li>
+<li><a href="#display的值">display的值</a></li>
+<li><a href="#面试题让一个元素消失的几种方法">面试题：让一个元素消失的几种方法：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<h2 id="css-第三天笔记">css 第三天笔记</h2>
+
+<h3 id="给元素设置宽度-高度">给元素设置宽度 高度</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs dts"><div class="hljs-line">   <span class="hljs-params">&lt;style&gt;</span>
+</div><div class="hljs-line">        span{
+</div><div class="hljs-line"><span class="hljs-symbol">            width:</span><span class="hljs-number">100</span>px; <span class="hljs-comment">//宽度</span>
+</div><div class="hljs-line"><span class="hljs-symbol">            height:</span><span class="hljs-number">100</span>px; <span class="hljs-comment">//高度</span>
+</div><div class="hljs-line"><span class="hljs-symbol">            background:</span>green;
+</div><div class="hljs-line">        }
+</div><div class="hljs-line">    <span class="hljs-params">&lt;/style&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="文字大小font-size">文字大小：font-size</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">   <span class="hljs-selector-tag">div</span>{
+</div><div class="hljs-line">     <span class="hljs-attribute">font-size</span>:<span class="hljs-number">16px</span>;
+</div><div class="hljs-line">   }
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="文字颜色color">文字颜色：color</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">    <span class="hljs-selector-tag">p</span>{
+</div><div class="hljs-line">      <span class="hljs-attribute">color</span>:red;
+</div><div class="hljs-line">    }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="文字水平居中">文字水平居中</h3>
+
+<blockquote>
+  <p>left(左对齐)、center（居中对齐）、right（右对齐）</p>
+</blockquote>
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">    <span class="hljs-selector-tag">p</span>{
+</div><div class="hljs-line">        <span class="hljs-attribute">text-align</span>:center;
+</div><div class="hljs-line">    }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="文字垂直居中">文字垂直居中</h3>
+
+<blockquote>
+  <p>height（高度）等于line-hegiht（行高）</p>
+</blockquote>
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line"><wbr>
+</div><div class="hljs-line">    <span class="hljs-selector-tag">P</span>{
+</div><div class="hljs-line">       <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">       <span class="hljs-attribute">line-height</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">    }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="给盒子设置边框">给盒子设置边框</h3>
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">div</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*</span></span>
+</div><div class="hljs-line"><span class="css">              第一个值代表的是边框的宽度</span>
+</div><div class="hljs-line"><span class="css">              第二个值代表的是边框的样式，solid 代表实线</span>
+</div><div class="hljs-line"><span class="css">              第三个值代表的是颜色</span>
+</div><div class="hljs-line"><span class="css">            */</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*border:1px solid red;*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">border-bottom</span>:<span class="hljs-number">1px</span> solid red;<span class="hljs-comment">/*下边框 */</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">border-top</span>:<span class="hljs-number">1px</span> solid red; <span class="hljs-comment">/* 上边框*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">border-left</span>:<span class="hljs-number">1px</span> solid red;<span class="hljs-comment">/*左边框*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">border-right</span>:<span class="hljs-number">1px</span> solid red; <span class="hljs-comment">/*右边框*/</span></span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="清除网页中各个元素自带的margin和padding">清除网页中各个元素自带的margin和padding</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">*{<span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;<span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>}
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="清除a标签自带的下划线">清除a标签自带的下划线</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">   <span class="hljs-selector-tag">a</span>{
+</div><div class="hljs-line">      <span class="hljs-attribute">text-decoration</span>:none;
+</div><div class="hljs-line">   }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="清除ulol列表前面默认的样式">清除ul，ol列表前面默认的样式</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs dsconfig"><div class="hljs-line">   <span class="hljs-string">ul,</span><span class="hljs-string">ol{</span>
+</div><div class="hljs-line">      <span class="hljs-built_in">list-style:none;</span>
+</div><div class="hljs-line">   }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<h3 id="让一个盒子在它的父级中水平居中">让一个盒子在它的父级中水平居中</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">    <span class="hljs-selector-tag">div</span>{
+</div><div class="hljs-line">       <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span> auto;
+</div><div class="hljs-line">    }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="文字缩进text-indent值">文字缩进：text-indent：值</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-comment">/*</span></span>
+</div><div class="hljs-line"><span class="css">          文字缩进：text-indent：值</span>
+</div><div class="hljs-line"><span class="css">        */</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">p</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">50px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">line-height</span>:<span class="hljs-number">50px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background</span>:green;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">text-indent</span>:<span class="hljs-number">20px</span>;</span>
+</div><div class="hljs-line"><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="块级元素">块级元素</h3>
+
+<ul><li><p>1、 块级元素，很霸道，独占一行，不让其它的元素和它在一行。</p></li>
+<li><p>2、排列方式：上下排列</p></li>
+<li><p>3、设置宽高的时候，可以起作用</p></li>
+</ul>
+
+
+
+<h3 id="行内元素">行内元素</h3>
+
+<ul><li><p>1、行内元素允许其它的行内元素和它共占一行</p></li>
+<li><p>2、排列方式从左到右</p></li>
+<li><p>3、默认情况下，设置宽高不起作用,它的宽高是里面的文字内容的大小</p></li>
+</ul>
+
+
+
+<h3 id="行内块元素">行内块元素</h3>
+
+<ul><li><p>1、行内元素允许其它的行内元素和它共占一行</p></li>
+<li><p>2、排列方式从左到右</p></li>
+<li><p>3、默认情况下，设置宽高起作用</p></li>
+</ul>
+
+
+
+<h3 id="标签汇总">标签汇总：</h3>
+
+<ul><li><p>标题：h1-h6</p></li>
+<li><p>段落：p</p></li>
+<li><p>超链接：a</p></li>
+<li><p>大盒子：div</p></li>
+<li><p>小盒子：span</p></li>
+<li><p>图片：img</p></li>
+<li><p>粗体：b 或者strong</p></li>
+<li><p>斜体：i或者em</p></li>
+<li><p>删除线：del</p></li>
+<li><p>三大列表：ol ul dl（li，dt，dd）</p>
+
+<p>块级元素：h1-h6、p、div <br>
+   行内元素：a、span、strong、b、i、em、del、big、small <br>
+   行内块：img</p>
+
+<h3 id="display的值">display的值</h3></li>
+<li><p>display:block; 转换成块级元素</p></li>
+<li><p>display：inline-block；转换成行内块元素</p></li>
+<li><p>display：inline；转换成行内，但是这个咱们通常不用，如果要转换，直接用行内元素即可</p></li>
+<li><p>display：none；让一个元素消失。</p></li>
+</ul>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>display<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">span</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background</span>:green;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/* 转换成块*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*display:block;*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*转换成行内块*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">display</span>:inline-block;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">div</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background</span>:pink;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/* 这一种不用，你既然把它转换成行内元素了，你直接用行内即可*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">display</span>:inline;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">p</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background</span>:gold;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*让一个元素消失不见了*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">display</span>:none;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>我是span<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">i</span>&gt;</span>我是i<span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>我是div<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div><div class="hljs-line">     <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>我是em<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span>
+</div><div class="hljs-line">     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>我是段落p<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<h3 id="面试题让一个元素消失的几种方法">面试题：让一个元素消失的几种方法：</h3>
+
+<ul><li><p>display:none</p></li>
+<li><p>visibility:hidden;</p></li>
+<li><p>opacity:0;         </p></li>
+</ul>
+
+<blockquote>
+  <p>三者之间的区别：display：none；彻底没有了，后面的两种，只是看不见了，但是位置还在。</p>
+</blockquote></div></body></html>
