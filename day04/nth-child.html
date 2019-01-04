@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nth-child</title>
+    <style>
+        /*.main p:nth-child(2){*/
+              /*color:red;*/
+        /*}*/
+        /*odd  是奇数*/
+        /*.main p:nth-child(odd){*/
+            /*color:red;*/
+        /*}*/
+        /*even*/
+       /* .main p:nth-child(even){
+            color:red;
+        }*/
+        .main p:nth-child(2n+1){
+            color:red;
+        }
+    </style>
+</head>
+<body>
+   <div class="main">
+       <p>p1</p>
+       <p>p1</p>
+       <p>p1</p>
+       <p>p1</p>
+   </div>
+</body>
+</html>
