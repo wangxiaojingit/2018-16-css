@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米导航</title>
+    <style>
+        *{margin:0;padding:0;}
+        ul,ol{list-style:none;}
+        a{text-decoration: none;}
+        .clearfix:after{
+            display: block;
+            content: "";
+            visibility: hidden;
+            font-size:0;
+            height:0;
+            clear:both;
+        }
+        .clearfix{
+            *zoom:1;
+        }
+        .top-bar{
+            height:40px;
+            line-height:40px;
+            background:#333;
+            font-size:12px;
+            color:#b0b0b0;
+        }
+        .top-bar a{
+            color:#b0b0b0;
+        }
+        .top-bar a:hover{
+            color:#fff;
+        }
+        .top-bar .top-bar-cart:hover{
+            background:#fff;
+            color:darkgoldenrod;
+        }
+        .md {
+            width: 1226px;
+            margin:0 auto;
+        }
+        .top-bar-main{
+            height:40px;
+        }
+        .top-bar-main .top-bar-nav{
+            float:left;
+            font-size:0;
+        }
+        .top-bar-nav span,.top-bar-nav a,.top-bar-info span,.top-bar-info a{
+            font-size:12px;
+        }
+        .top-bar-nav>span,.top-bar-info>span{
+            margin:0 6px;
+        }
+        .top-bar-main .top-bar-info {
+            float: right;
+            font-size:0
+        }
+        .top-bar-main .top-bar-cart{
+            float:right;
+        }
+        .top-bar-nav>span{
+            color:#424242;
+        }
+        .top-bar .top-bar-cart{
+            width:120px;
+            height:40px;
+            background:#424242;
+            text-align:center;
+            margin-left:30px;
+            /* 小手*/
+            /*cursor: pointer;*/
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-bar-main md clearfix">
+            <div class="top-bar-nav">
+                <a href="javascript:;">小米商城</a>
+                <span>|</span>
+                <a href="javascript:;">MIUI</a>
+                <span>|</span>
+                <a href="javascript:;">loT</a>
+                <span>|</span>
+                <a href="javascript:;">云服务</a>
+                <span>|</span>
+                <a href="javascript:;">金融</a>
+                <span>|</span>
+                <a href="javascript:;">有品</a>
+                <span>|</span>
+                <a href="javascript:;">小爱开发平台</a>
+                <span>|</span>
+                <a href="javascript:;">政企服务</a>
+                <span>|</span>
+                <a href="javascript:;">资质证照</a>
+                <span>|</span>
+                <a href="javascript:;">协议规则</a>
+                <span>|</span>
+                <a href="javascript:;">下载app</a>
+                <span>|</span>
+                <a href="javascript:;">Select Region</a>
+            </div>
+            <a class="top-bar-cart" href="" >购物车(0)</a>
+            <div class="top-bar-info">
+                <a href="">登录</a>
+                <span>|</span>
+                <a href="">注册</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

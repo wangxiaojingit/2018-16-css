@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background:gold;
+        }
+        *{
+            margin:0;padding:0;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .md{
+            width:1226px;
+            margin:0 auto;
+        }
+        .clearfix:after{
+            display: block;
+            content: "";
+            visibility: hidden;
+            height: 0;
+            font-size:0;
+            clear: both;
+        }
+        .clearfix{
+            *zoom:1
+        }
+         .main{
+
+         }
+        .shopping .top{
+            height:58px;
+        }
+        .shopping .bottom{
+            height:340px;
+        }
+        .shopping h3{
+            float:left;
+            height:58px;
+            line-height:58px;
+            font-weight: 200;
+            font-size:22px;
+        }
+        .shopping .arrow{
+            float:right;
+            width:70px;
+            height:25px;
+            margin-top:17px;
+            border:1px solid #e0e0e0;
+        }
+        .shopping .arrow>a{
+            float:left;
+            width:35px;
+            height: 27px;
+        }
+        .shopping  .arrowLeft{
+            border-right:1px solid #e0e0e0;
+            box-sizing: border-box;
+            background:url("images/arrow1.png") center 5px no-repeat;
+        }
+        .shopping .arrowRight{
+            background:url("images/arrow2.png") center center no-repeat;
+        }
+        .shopping .bottom>li{
+            width:234px;
+            height:340px;
+            background:#FAFAFA;
+            float:left;
+            margin-right:14px;
+        }
+        .shopping .bottom>li:nth-child(5){
+            margin-right:0;
+        }
+        .advertisement{
+            height:120px;
+            background:pink;
+            margin:42px auto;
+            background:url("https://i1.mifile.cn/a4/xmad_15464805744595_gfbXL.jpg") center center no-repeat;
+            background-size:cover;
+        }
+    </style>
+</head>
+<body>
+<!--小米闪购-->
+  <div class="shopping">
+      <div class="main md">
+          <div class="top clearfix">
+              <h3>小米闪购</h3>
+              <div class="arrow clearfix">
+                  <a class="arrowLeft" href=""></a>
+                  <a class="arrowRight" href=""></a>
+              </div>
+          </div>
+          <ul class="bottom clearfix">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ul>
+          <!--广告条-->
+          <div class="advertisement"></div>
+      </div>
+  </div>
+</body>
+</html>

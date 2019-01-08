@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0}
+        ul,ol{
+            list-style: none;
+        }
+        .clearfix:after{
+            display: block;
+            content: "";
+            visibility: hidden;
+            font-size:0;
+            height:0;
+            clear:both;
+        }
+        .clearfix{
+            *zoom:1;
+        }
+
+
+        ul{
+
+            width:360px;
+
+        }
+        .main{
+            background:gold;
+            margin:0 auto;
+            width:360px;
+            padding-bottom:10px;
+        }
+        ul>li{
+            width:100px;
+            height:100px;
+            background:green;
+            float:left;
+            margin:10px;
+        }
+        .bottom{
+            width:340px;
+            height:100px;
+            background:green;
+            margin-left:10px;
+        }
+    </style>
+</head>
+<body>
+   <div class="main">
+        <ul class="top clearfix">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="bottom"></div>
+
+   </div>
+</body>
+</html>

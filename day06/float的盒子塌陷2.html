@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width:100px;
+            height:100px;
+            background:green;
+            float:right;
+
+        }
+        .main{
+            /*给父级添加高度*/
+            background:gold;
+        }
+        .clearfix:after{
+            display: block;
+            content: "";
+            visibility: hidden;
+            font-size:0;
+            height:0;
+            clear:both;
+        }
+        .clearfix{
+            *zoom:1;
+        }
+
+
+    </style>
+</head>
+<body>
+   <div class="main clearfix">
+         <div class="box"></div>
+
+   </div>
+
+
+</body>
+</html>

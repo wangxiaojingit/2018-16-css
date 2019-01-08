@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0}
+        ul,ol{
+            list-style: none;
+        }
+        .clearfix:after{
+                display: block;
+                content: "";
+                visibility: hidden;
+                font-size:0;
+                height:0;
+                clear:both;
+        }
+        .clearfix{
+            *zoom:1;
+        }
+        .main{
+            width:360px;
+            height:230px;
+            padding:10px;
+            box-sizing: border-box;
+            background:gold;
+            margin:0 auto;
+        }
+        .top li{
+            margin-right:20px;
+            background:green;
+            float:left;
+            width:100px;
+            height:100px;
+        }
+        .bottom{
+            width:340px;
+            height:100px;
+            margin-top:10px;
+            background:green;
+        }
+        ul>li:nth-child(3){
+            margin-right:0
+        }
+    </style>
+</head>
+<body>
+   <div class="main">
+        <ul class="top clearfix">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="bottom"></div>
+
+   </div>
+</body>
+</html>

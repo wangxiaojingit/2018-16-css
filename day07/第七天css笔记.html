@@ -1,0 +1,94 @@
+<!DOCTYPE html><html><head><title>第七天css笔记</title><meta charset='utf-8'><link href='https://cdn.maxiang.io/res-min/themes/marxico.css' rel='stylesheet'><style>
+.note-content  {font-family: ADMUI3Lg, 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;}
+
+</style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><ul>
+<li><ul>
+<li><a href="#第七天css笔记">第七天css笔记</a><ul>
+<li><a href="#background">background</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<h3 id="第七天css笔记">第七天css笔记</h3>
+
+
+
+<h4 id="background">background</h4>
+
+<blockquote>
+  <p>1 background-color: 背景颜色 <br>
+  2 background-image:背景图片 <br>
+  3、background-position:背景图片的位置 <br>
+  4、background-attachment:scroll（背景图片相对于元素是固定的） 或者fixed（背景图片相对于窗口是固定的） <br>
+  5、background-size：百分比/具体的像素值/cover/contain</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-class">.box</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">600px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">600px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">border</span>:<span class="hljs-number">1px</span> solid red;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*背景颜色*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-color</span>:pink;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*背景图片*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-image</span>:<span class="hljs-built_in">url</span>(<span class="hljs-string">"images/apple.jpg"</span>);</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-repeat</span>: no-repeat;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*</span></span>
+</div><div class="hljs-line"><span class="css">            1、</span>
+</div><div class="hljs-line"><span class="css">              水平位置：left center right</span>
+</div><div class="hljs-line"><span class="css">              垂直位置：top center bottom</span>
+</div><div class="hljs-line"><span class="css">            2、具体的像素值</span>
+</div><div class="hljs-line"><span class="css"></span>
+</div><div class="hljs-line"><span class="css">            3、百分比</span>
+</div><div class="hljs-line"><span class="css">              */</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*background-position:center center;*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*background-position: 30px 30px;*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-position</span>:<span class="hljs-number">50%</span> <span class="hljs-number">50%</span>;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div></code></pre>
+
+<blockquote>
+  <p>cover 这个值也是放大图片，有可能放大到一定的程度，图片的内容会超出盒子的大小，就不能显示完全 <br>
+  contain：缩放到最合适的比例，只要有一边触碰到盒子的大小，就会停止缩放</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-class">.box</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">400px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">300px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">border</span>:<span class="hljs-number">1px</span> solid red;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-image</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">"images/head.gif"</span>);</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-repeat</span>: no-repeat;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-position</span>:center center;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*background-size:cover;*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background-size</span>:contain;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*background-size:300px 300px;*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*background-size:100% 100%;*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-comment">/*复合属性，注意：background-sie 不能复合到里面写，要单独写*/</span></span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background</span>:pink <span class="hljs-built_in">url</span>(<span class="hljs-string">"images/apple.jpg"</span>) center center  no-repeat ;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre></div></body></html>

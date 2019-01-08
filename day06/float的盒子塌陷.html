@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width:100px;
+            height:100px;
+            background:green;
+            float:right;
+
+        }
+        .main{
+            /*给父级添加高度*/
+            /*height:300px;*/
+            background:gold;
+            /*overflow:hidden;*/
+        }
+        .box2{
+            /*清除左浮动*/
+            /*clear:right;*/
+            /*清除左右浮动*/
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+   <div class="main">
+        <div class="box"></div>
+        <div class="box2"></div>
+   </div>
+</body>
+</html>
