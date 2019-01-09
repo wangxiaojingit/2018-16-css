@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nth-child 和nth-of-type</title>
+    <style>
+        /*
+         body中的第五个子元素，并且第五个子元素是h2标签
+        */
+        h2:nth-child(5){
+            background:green;
+        }
+        /*
+        意思是先找到body中所有的h2类型的子元素，然后选中的是第二个h2标签
+        */
+        h2:nth-of-type(2){
+              background:yellowgreen;
+          }
+    </style>
+</head>
+<body>
+
+       <p>段落p1</p>
+       <p>段落p2</p>
+       <p>段落p3</p>
+       <h1>h1</h1>
+       <h2>h2</h2>
+       <h2>h21</h2>
+       <h3>h3</h3>
+
+</body>
+</html>

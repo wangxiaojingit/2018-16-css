@@ -1,0 +1,270 @@
+body{
+    background:gold;
+}
+*{
+    margin:0;padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.md{
+    width:1226px;
+    margin:0 auto;
+}
+.clearfix:after{
+    display: block;
+    content: "";
+    visibility: hidden;
+    height: 0;
+    font-size:0;
+    clear: both;
+}
+.clearfix{
+    *zoom:1
+}
+.main{
+
+}
+.shopping .top{
+    height:58px;
+}
+.shopping .bottom{
+    height:340px;
+}
+.shopping h3{
+    float:left;
+    height:58px;
+    line-height:58px;
+    font-weight: 200;
+    font-size:22px;
+}
+.shopping .arrow{
+    float:right;
+    width:70px;
+    height:25px;
+    margin-top:17px;
+    border:1px solid #e0e0e0;
+}
+.shopping .arrow>a{
+    float:left;
+    width:35px;
+    height: 27px;
+}
+.shopping  .arrowLeft{
+    border-right:1px solid #e0e0e0;
+    box-sizing: border-box;
+    background:url("../images/arrow1.png") center 5px no-repeat;
+}
+.shopping .arrowRight{
+    background:url("../images/arrow2.png") center center no-repeat;
+}
+.shopping .bottom>li{
+    width:234px;
+    height:340px;
+    background:#FAFAFA;
+    float:left;
+    margin-right:14px;
+}
+.shopping .bottom>li:nth-child(5){
+    margin-right:0;
+}
+.shopping .advertisement{
+    height:120px;
+    background:pink;
+    margin:42px auto;
+    background:url("https://i1.mifile.cn/a4/xmad_15464805744595_gfbXL.jpg") center center no-repeat;
+    background-size:cover;
+}
+/*手机模块*/
+.phone{
+    background:#F5F5F5;
+}
+.phone .top{
+    height:58px;
+    line-height:58px;
+}
+.phone h3{
+    float:left;
+    font-weight:200;
+    font-size:22px;
+}
+.phone .more{
+    float:right;
+    color:#424242;
+    font-size:16px;
+}
+.phone .more:hover{
+    color:#ff6700;
+}
+.bottom .left,.bottom .right{
+    float:left;
+}
+.phone .bottom .left a{
+    width:234px;
+    height:614px;
+    background:url("../images/bg1.jpg") center center no-repeat;
+    display:block;
+    background-size:cover;
+}
+.phone .right{
+    width:992px;
+}
+.phone>.main>.bottom>.right li{
+    width:234px;
+    height:300px;
+    background:#fff;
+    float:left;
+    /*margin-left:14px;*/
+    /*margin-bottom:14px;*/
+    margin:0 0 14px 14px;
+}
+/*.phone .right li:nth-child(5),.phone .right li:nth-child(6),.phone .right li:nth-child(7),.phone .right li:nth-child(7){*/
+    /*margin-bottom:0;*/
+/*}*/
+.phone .right li.noMarBot{
+    margin-bottom:0
+}
+
+.advertisement{
+    display:block;
+    height:120px;
+    background:pink;
+    margin:42px 0;
+}
+.homeNav{
+    float:right;
+}
+.homeNav>li{
+    float:left;
+    margin-left:30px;
+    cursor:pointer;
+}
+.homeNav>li:hover{
+    color:#ff6700;
+}
+.homeElectric .bottom .left a{
+    height:300px;
+    background-image:url("../images/bg2.jpg");
+}
+.homeElectric .right li{
+    width:234px;
+    height:300px;
+    background:pink;
+    float:left;
+    margin-left:14px;
+    margin-bottom:14px;
+}
+.homeElectric .right li:nth-last-child(1),.homeElectric .right li:nth-last-child(2){
+    height:143px;
+}
+/*智能模块*/
+.intelligent .top{
+    height:58px;
+    line-height:58px;
+}
+.intelligent .left{
+    float:left;
+}
+.intelligent .right{
+    float:right;
+}
+.intelligent .right{
+   width:280px;
+}
+.intelligent  .right>li{
+    float:left;
+    margin-left:30px;
+}
+.intelligent  .right>li:hover{
+    color:#ff6700;
+}
+.intelligent .bottom>li{
+    width:234px;
+    height:300px;
+    background:pink;
+    float:left;
+    margin-right:14px;
+    margin-bottom:14px;
+}
+.intelligent .bottom>li.noMarRig{
+    margin-right:0;
+}
+.intelligent .bottom>li:nth-child(10),.intelligent .bottom>li:nth-child(11){
+    height:143px;
+}
+/*
+倒着数第几个
+.intelligent .bottom>li:nth-last-child(1),.intelligent .bottom>li:nth-last-child(2){*/
+    /**/
+/*}*/
+/*搭配*/
+.collocation .collocationTop{
+    height:58px;
+    line-height:58px;
+}
+.collocationTop h3{
+    float:left;
+    font-weight: 200;
+    font-size:22px;
+}
+.collocationTopRigth{
+    float:right;
+}
+.collocationTopRigth>li{
+    float:left;
+    margin-left:30px;
+}
+.collocationBottom li{
+    float:left;
+    width:234px;
+    height:300px;
+    margin:0 14px 14px 0;
+    background:pink;
+}
+.collocationBottom li.nomarrig{
+    margin-right:0;
+}
+.collocationBottom  li:nth-last-child(1),.collocationBottom  li:nth-last-child(2){
+    height:143px;
+}
+
+/* 单独的li*/
+
+.phone .tag{
+    width:64px;
+    height:20px;
+    line-height:20px;
+    background:#83c44e;
+    margin:0 auto;
+    font-size:12px;
+    text-align:center;
+    color:#fff;
+}
+.phoneRight li img{
+
+    display:block;
+    margin:0 auto;
+    width:160px;
+    margin-bottom:18px;
+}
+.phoneRight li>a{
+    display:block;
+}
+.phoneRight li h4{
+    font-weight:normal;
+    font-size:14px;
+    text-align:center;
+    color:#333;
+}
+.phoneRight li p{
+    font-size:12px;
+    color:#b0b0b0;
+    margin-bottom:10px;
+    text-align: center;
+}
+.phoneRight li .price{
+    color:#ff6700;
+}
