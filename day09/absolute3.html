@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       /*
+         看层级
+       */
+        *{
+            margin:0;padding:0;
+        }
+        div{
+            width:100px;
+            height:100px;
+        }
+
+        /*
+          我想给box1设置一个绝对定位，想让它的参照物是main，我们本来应该给
+          main设置一个position：relative，但是在要设置的时候，发现main里面已经有position:absolute,或者是position：fixed，那么我们就不用设置position:relative;  也就是说，只要有position：relative、position:absolute、position：fixed中的任何一个就已经满足参照物的特点。
+        */
+        .box1{
+            background:green;
+            position:absolute;
+            left:0px;
+            top:0;
+        }
+        .main{
+            position:absolute;
+            left:0;
+            top:0;
+            width:300px;
+            height:300px;
+            background:pink;
+        }
+
+    </style>
+</head>
+<body>
+      <div class="main">
+            <div class="box1">
+
+            </div>
+      </div>
+
+</body>
+</html>

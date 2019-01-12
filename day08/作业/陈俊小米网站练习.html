@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米网站 陈俊1.10</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .clearfix:after{
+            overflow: hidden;
+            content: "";
+            font-size: 0;
+            height: 0;
+            display: block;
+            clear: both;
+            visibility: hidden;
+        }
+        .clearfix{
+            *zoom: 1;
+        }
+        ul,ol{
+            list-style:none ;
+        }
+        a{
+            text-decoration: none;
+        }
+        .md{
+            width: 1226px;
+            margin: 0 auto;
+        }
+        /*页面导航样式*/
+        .navleft{
+            height: 40px;
+            float: left;
+            line-height: 40px;
+        }
+        .navleft>li{
+            float: left;
+            cursor: pointer;
+            font-size: 12px;
+            color:#b0b0b0;
+        }
+        span{
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        .navleft li a,.navright li a{
+            color:#b0b0b0;
+        }
+        .navleft li a:hover,.navright li a:hover{
+            color: white;
+        }
+        .navright>li{
+            float: right;
+            font-size: 12px;
+            color:#b0b0b0;
+            height: 40px;
+            line-height: 40px;
+        }
+        .navright{
+            float: right;
+        }
+        .navright .buycar{
+            margin-left: 30px;
+            font-size: 16px;
+        }
+        .thead{
+            background:#333333;
+        }
+        /*闪购部分样式*/
+
+        .quickTop h3{
+            float: left;
+            height: 58px;
+            line-height: 58px;
+            width: 1226px;
+        }
+        .quickTopright{
+            float: right;
+            width: 48px;
+            height: 32px;
+            margin-top: -32px;
+        }
+        .quickTopbox1{
+            width: 24px;
+            height: 20px;
+            border: 1px solid #000000;
+            float: right;
+            box-sizing: border-box;
+        }
+        .quickTopbox2{
+            width: 24px;
+            height: 20px;
+            border: 1px solid #000000;
+            float: right;
+            box-sizing: border-box;
+        }
+        .quickBottom li{
+            width: 234px;
+            height: 340px;
+            background: #6a6fff;
+            float: left;
+            margin-right: 14px;
+            background:url("images/sg.png") no-repeat center;
+            background-size: contain;
+            cursor: pointer;
+        }
+        .quickfoot img{
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        /*手机部分样式*/
+        .iphonemain{
+            background: #f5f5f5;
+        }
+        .iphonetop{
+            height: 58px;
+        }
+        .iphonetop>h3{
+            float: left;
+            line-height: 58px;
+            font-weight: 200;
+        }
+        .iphonetop>a{
+            float: right;
+            line-height: 58px;
+            font-size: 12px;
+        }
+        .iphonetop>a:hover{
+            color: red;
+        }
+        /*手机下部分*/
+        .iphoneBottom .first{
+            width: 234px;
+            height: 613px;
+        }
+        .iphoneBottom li{
+            float: left;
+            width: 234px;
+            height: 300px;
+            margin-right:14px;
+            margin-bottom: 14px;
+            background: #ffffff;
+        }
+        .iphoneBottom li span{
+            background: greenyellow;
+
+        }
+        .iphoneBottom .title{
+            width: 64px;
+            height: 20px;
+            background: red;
+            text-align: center;
+            margin-left: 80px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .iphoneBottom .iphonepic{
+            margin-left: 35px;
+            margin-bottom: 30px;
+        }
+        .iphoneBottom h3{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            color: #333333;
+        }
+        .iphoneBottom li a{
+            color:#333333;
+        }
+        .iphoneBottom p{
+            font-size: 12px;
+            color: #b0b0b0;
+            text-align: center;
+        }
+        .iphoneBottom .price{
+            color: #ff463f;
+            text-align: center;
+            font-size: 14px;
+            margin-top:10px;
+        }
+        .iphonefoot{
+            width: 1226px;
+            height: 120px;
+            background: url("https://i1.mifile.cn/a4/xmad_15464135199765_NJLGt.jpg") no-repeat;
+            background-size: contain;
+            cursor: pointer;
+        }
+        /*家电上部分*/
+        .jiadiantop{
+            height: 58px;
+        }
+        .jiadiantop h3{
+            float: left;
+            line-height: 58px;
+            font-weight: 200;
+        }
+        .jiadiantop li{
+            float: right;
+            line-height: 58px;
+            font-size: 12px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .jiadianbottom li{
+            float: left;
+            width: 234px;
+            height: 300px;
+            margin-right:14px;
+            margin-bottom: 14px;
+            background: white;
+        }
+        li.smallbox{
+            width: 234px;
+            height: 143px;
+        }
+         .jiadianbottom li a{
+            color:#333333;
+        }
+        .jiadianbottom p{
+            font-size: 12px;
+            color: #b0b0b0;
+            text-align: center;
+        }
+        .jiadianbottom .price{
+            color: #ff463f;
+            text-align: center;
+            font-size: 14px;
+            margin-top:10px;
+        }
+        .jiadianbottom h3{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            color: #333333;
+        }
+        .jiadianbottom .jiadiantitle{
+            width: 64px;
+            height: 20px;
+            background: white;
+            text-align: center;
+            margin-left: 80px;
+            font-size: 0;
+            line-height: 20px;
+        }
+        .jiadianpic{
+            margin-left: 35px;
+            margin-bottom: 30px;
+        }
+        .boxone{
+            float: right;
+            margin: 15px;
+        }
+        .boxtwo{
+            float:left;
+            margin:18px;
+            width: 71px;
+            height: 43px;
+        }
+        .boxtwo p{
+            font-size: 14px;
+            color: red;
+        }
+        /*家电底部*/
+        .jiadianfoot{
+            width: 1226px;
+            height: 120px;
+            background: url("https://i1.mifile.cn/a4/xmad_15439756480639_IhxpV.jpg") no-repeat;
+            background-size: contain;
+            cursor: pointer;
+        }
+        /*为你推荐部分
+       */
+        .tuijian h3{
+            float: left;
+            height: 58px;
+            line-height: 58px;
+        }
+        .tuijianBottom li{
+            width: 295px;
+            height: 415px;
+            background: white;
+            float: left;
+            margin-right: 14px;
+        }
+        .tuijianBottom .tuijianpic img{
+            width: 296px;
+            height: 220px;
+        }
+        .tuijianBottom .jieshao{
+            font-size: 14px;
+            color: #333;
+            margin-top: 20px;
+            margin-left: 25px;
+            display: block;
+            width: 240px;
+            height: 93px;
+        }
+        .tuijianBottom .pinglun{
+            display: block;
+            width: 240px;
+            height: 18px;
+            font-size: 12px;
+            color: #b0b0b0;
+            margin: 0 28px 8px;
+        }
+        .mi{
+            font-size: 14px;
+            display: inline-block;
+            color: black;
+            margin-left: 28px;
+        }
+        .tuijianBottom .price{
+            color: #ff6700;
+            display: inline-block;
+        }
+        .tuijianBottom .fenge{
+            color:#e0e0e0;
+        }
+        /*内容部分样式*/
+        .main h3{
+            height: 58px;
+            line-height: 58px;
+        }
+        .mainpic li{
+            width: 296px;
+            height: 420px;
+            float: left;
+            margin-right: 14px;
+            background: white;
+            margin-bottom: 60px;
+        }
+        .mainpic h4 a{
+            color: black;
+        }
+        .mainpic h4{
+            width: 296px;
+            text-align: center;
+        }
+        .mainpic .jieshao{
+            width: 200px;
+            height: 37px;
+            display: block;
+            margin-left: 50px;
+            margin-top: 30px;
+            color:#b0b0b0;
+            font-size: 12px;
+        }
+        .mainfoot{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        /*页脚部分*/
+        .footnav{
+            height: 80px;
+            border-bottom: 1px solid #e0e0e0;
+            line-height: 80px;
+            text-indent: 85px;
+        }
+        .foot .footnav a:hover{
+            color:palevioletred;
+        }
+        .footnav a{
+            margin-right: 60px;
+            color:#616161;
+            font-size: 14px;
+        }
+        .footnav span{
+            margin-right: 60px;
+            color:#616161;
+            font-size: 14px;
+        }
+        .footbottom dl{
+            float: left;
+
+        }
+        dt{
+            margin-bottom: 30px;
+            margin-right: 88px;
+            color:#424242;
+            font-size: 14px;
+        }
+        .footbottom a{
+            color:#757575;
+            font-size: 12px;
+        }
+        dd{
+            margin-bottom: 20px;
+            text-indent: 5px;
+        }
+        .footbottom .footright{
+            float: right;
+            width: 252px;
+            height: 112px;
+            text-align: center;
+            border-left: 1px solid #616161;
+            padding-left: 59px;
+            margin-top: 20px;
+
+        }
+        .footright h5{
+            color: #ff6700;
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: 100;
+        }
+        .footright p{
+            font-size: 12px;
+        }
+        .footright span{
+            display: block;
+            font-size: 12px;
+        }
+        button{
+            width: 120px;
+            height: 30px;
+            border:1px solid #ff6700;
+            color:#ff6700;
+            background: white;
+            margin-top: 20px;
+        }
+        .footbottom dd a:hover{
+            color:palevioletred;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<!--页头导航部分-->
+<div class="thead">
+    <div class="nav md clearfix">
+        <!--页面导航左边部分-->
+        <ul class="navleft clearfix">
+            <li><a href="">小米商城</a><span>|</span></li>
+            <li><a href="">miui</a><span>|</span></li>
+            <li><a href="">lot</a><span>|</span></li>
+            <li><a href="">云服务</a><span>|</span></li>
+            <li><a href="">金融</a><span>|</span></li>
+            <li><a href="">优品</a><span>|</span></li>
+            <li><a href="">小爱开放平台</a><span>|</span></li>
+            <li><a href="">企业服务</a><span>|</span></li>
+            <li><a href="">纸质证照</a><span>|</span></li>
+            <li><a href="">协议规划</a><span>|</span></li>
+            <li><a href="">下载app</a><span>|</span></li>
+            <li><a href="">select</a><span>|</span></li>
+        </ul>
+        <ul class="navright clearfix">
+            <li class="buycar"><a href="">购物车</a></li>
+            <li><a href="">消息通知</a></li>
+            <li><a href="">注册</a><span>|</span></li>
+            <li><a href="">登入</a><span>|</span></li>
+        </ul>
+    </div>
+</div>
+        <!--闪购部分-->
+<div>
+    <div class="quick md">
+        <!--闪购上部分-->
+       <div class="quickTop clearfix">
+           <h3>小米闪购</h3>
+           <div class="quickTopright clearfix">
+               <div class="quickTopbox1"><span>▷</span></div>
+               <div class="quickTopbox2"><span>◁</span></div>
+           </div>
+       </div>
+        <!--闪购下部分-->
+        <ul class="quickBottom">
+            <li style="border-top:1px solid deepskyblue"></li>
+            <li style="border-top:1px solid yellow"></li>
+            <li style="border-top:1px solid deepskyblue"></li>
+            <li style="border-top:1px solid red"></li>
+            <li style="margin: 0;border-top: 1px solid greenyellow"></li>
+            <!--闪购底部-->
+            <div class="quickfoot">
+                <img src="https://i1.mifile.cn/a4/xmad_15464805744595_gfbXL.jpg" width="1226" height="120">
+            </div>
+    </div>
+</div>
+   <!--手机部分-->
+<div class="iphonemain">
+    <div class="iphone md">
+        <div class="iphonetop clearfix">
+            <h3>手机</h3>
+            <a href="">查看全部</a>
+        </div>
+        <!--手机下部分-->
+        <ul class="iphoneBottom clearfix">
+            <li class="first"><a href="#"><img src="https://i1.mifile.cn/a4/xmad_1544580545953_UvEXK.jpg" width="234" height="614"></a>
+            </li>
+            <li>
+                <div class="title" style="background:greenyellow">新品</div>
+                <a href=""><img class="iphonepic" src="https://i1.mifile.cn/a1/pms_1537323963.1278763!220x220.jpg" height="160" width="160"></a>
+                <div>
+                    <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                    <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                    <div class="price">1399元</div>
+                </div>
+            </li>
+            <li>
+                <div class="title" style="background: greenyellow">新品</div>
+                <a href=""><img class="iphonepic" src="https://i1.mifile.cn/a1/pms_1545457703.71734471!220x220.png" height="160" width="160"></a>
+                <div>
+                    <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                    <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                    <div class="price">1099元</div>
+                </div>
+            </li>
+            <li>
+                <div class="title">新品</div>
+                <a href=""><img class="iphonepic" src="https://i1.mifile.cn/a1/pms_1527685277.65255600!220x220.jpg" height="160" width="160"></a>
+                <div>
+                    <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                    <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                    <div class="price">1699元</div>
+                </div>
+            </li>
+            <li style="margin: 0">
+                <div class="title">新品</div>
+                <a href=""><img class="iphonepic" src="https://i1.mifile.cn/a1/pms_1522034061.12391230!220x220.jpg" height="160" width="160"></a>
+                <div>
+                    <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                    <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                    <div class="price">3399元</div>
+                </div>
+            </li>
+            <li>
+                <div class="title">新品</div>
+                <a href=""><img class="iphonepic" src="https://i1.mifile.cn/a1/pms_1524621350.77238418!220x220.jpg" height="160" width="160"></a>
+                <div>
+                    <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                    <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                    <div class="price">1399元</div>
+                </div>
+            </li>
+            <li>
+                <div class="title">新品</div>
+                <a href=""><img class="iphonepic" src="https://i1.mifile.cn/a1/pms_1537323963.1278763!220x220.jpg" height="160" width="160"></a>
+                <div>
+                    <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                    <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                    <div class="price">1399元</div>
+                </div>
+            </li>
+            <li>
+                <div class="title">新品</div>
+                <a href=""><img class="iphonepic" src="https://i1.mifile.cn/a1/pms_1528719461.20891365!220x220.jpg" height="160" width="160"></a>
+                <div>
+                    <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                    <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                    <div class="price">1399元</div>
+                </div>
+            </li>
+            <li style="margin: 0">
+                <div class="title">新品</div>
+                <a href=""><img class="iphonepic" src="https://i1.mifile.cn/a1/pms_1528719461.20891365!220x220.jpg" height="160" width="160"></a>
+                <div>
+                    <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                    <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                    <div class="price">1399元</div>
+                </div>
+            </li>
+        </ul>
+        <!--手机部分底部图片-->
+        <div class="iphonefoot"></div>
+        <!--家电部分-->
+        <div class="jiadian">
+            <div class="jiadiantop clearfix">
+                <h3>小米家电</h3>
+                <ul>
+                    <li>热门</li>
+                    <li>电视影音</li>
+                    <li>电脑</li>
+                    <li>家居</li>
+                </ul>
+            </div>
+                 <ul class="jiadianbottom clearfix">
+                    <li>
+                        <a href=""><img src="https://i1.mifile.cn/a4/xmad_15232433421155_vCzhJ.jpg" width="234" height="300"></a>
+                    </li>
+                    <li>
+                        <div class="jiadiantitle">新品</div>
+                        <a href=""><img class="jiadianpic" src="https://i1.mifile.cn/a1/pms_1545457703.71734471!220x220.png" height="160" width="160"></a>
+                        <div>
+                            <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                            <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                            <div class="price">1099元</div>
+                        </div>
+                    </li>
+                    <li>
+                        <span style="display: block;margin-left:95px;background: yellowgreen;width: 32px">新品</span>
+                        <a href=""><img class="jiadianpic" src="https://i1.mifile.cn/a1/pms_1545457703.71734471!220x220.png" height="160" width="160"></a>
+                        <div>
+                            <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                            <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                            <div class="price">1099元</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="jiadiantitle">新品</div>
+                        <a href=""><img class="jiadianpic" src="https://i1.mifile.cn/a1/pms_1545457703.71734471!220x220.png" height="160" width="160"></a>
+                        <div>
+                            <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                            <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                            <div class="price">1099元</div>
+                        </div>
+                    </li>
+                    <li style="margin: 0">
+                        <div class="jiadiantitle">新品</div>
+                        <a href=""><img class="jiadianpic" src="https://i1.mifile.cn/a1/pms_1545457703.71734471!220x220.png" height="160" width="160"></a>
+                        <div>
+                            <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                            <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                            <div class="price">1099元</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href=""><img src="https://i1.mifile.cn/a4/xmad_14967432043621_gmlxi.jpg" width="234" height="300"></a>
+                    </li>
+                    <li>
+                        <div class="jiadiantitle">新品</div>
+                        <a href=""><img class="jiadianpic" src="https://i1.mifile.cn/a1/pms_1545457703.71734471!220x220.png" height="160" width="160"></a>
+                        <div>
+                            <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                            <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                            <div class="price">1099元</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="jiadiantitle">新品</div>
+                        <a href=""><img class="jiadianpic" src="https://i1.mifile.cn/a1/pms_1545457703.71734471!220x220.png" height="160" width="160"></a>
+                        <div>
+                            <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                            <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                            <div class="price">1099元</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="jiadiantitle">新品</div>
+                        <a href=""><img class="jiadianpic" src="https://i1.mifile.cn/a1/pms_1545457703.71734471!220x220.png" height="160" width="160"></a>
+                        <div>
+                            <h3><a href="">小米8 青春版 4g+64G</a></h3>
+                            <p>潮流镜面渐变色,2400万像素自拍期间</p>
+                            <div class="price">1099元</div>
+                        </div>
+                    </li>
+                    <li class="smallbox clearfix" style="margin: 0 0 14px 0">
+                        <div class="boxone">
+                            <a href=""><img src="https://i1.mifile.cn/a1/pms_1524467046.18799928.jpg?width=80&height=80" alt=""></a>
+                        </div>
+                        <div class="boxtwo">
+                            <p><a href="">小米6 极简...</a></p>
+                            <p>29元</p>
+                        </div>
+
+                    </li>
+                    <li class="smallbox clearfix" style="margin: 0">
+                        <div class="boxone">
+                            <a href=""><img src="https://i1.mifile.cn/a1/pms_1524467046.18799928.jpg?width=80&height=80" alt=""></a>
+                        </div>
+                        <div class="boxtwo">
+                            <p><a href="">小米6 极简...</a></p>
+                            <p>29元</p>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+        <!--家电底部-->
+        <div class="jiadianfoot"></div>
+        <!--推荐上部分-->
+        <div class="tuijian clearfix">
+            <h3>热评产品</h3>
+        </div>
+        <!--为你推荐下部分-->
+        <ul class="tuijianBottom clearfix">
+            <li>
+                <a class="tuijianpic" href="#"><img src="https://i1.mifile.cn/a4/bae79ac6-60d5-478d-90e7-ff1222764bd1"></a>
+                <a class="jieshao" href="">超级喜欢！小巧玲珑！音质完美！不知道为什么！只要是小米出的东西我都喜欢！那倒是因为那一句？？小米</a>
+                <span class="pinglun">来自于 田密 的评价</span>
+                <a class="mi" href="">小米随身蓝牙音箱</a>
+                <span class="fenge">|</span>
+                <p class="price">69元</p>
+            </li>
+            <li>
+                <a class="tuijianpic" href="#"><img src="https://i1.mifile.cn/a4/54e35fdd-bc68-4a89-bad7-c9c3bb2fc6fe"></a>
+                <a class="jieshao" href="">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有</a>
+                <span class="pinglun">来自于 HZG 的评价
+</span>
+                <a class="mi" href="">米家压力IH电饭煲 </a>
+                <span class="fenge">|</span>
+                <p class="price">999元</p>
+            </li>
+            <li>
+                <a class="tuijianpic" href="#"><img src="https://i1.mifile.cn/a4/aa6b038a-2946-4549-acff-17c58e701556"></a>
+                <a class="jieshao" href="">东西真心不错，用过最好用的插线板，做工外观没得挑剔，3个USB接口很实用，充电快，建议不包邮的应该</a>
+                <span class="pinglun">来自于 yinyin19891117 的评价</span>
+                <a class="mi" href="">小米插线板 </a>
+                <span class="fenge">|</span>
+                <p class="price">49元</p>
+            </li>
+            <li style="margin:0">
+                <a class="tuijianpic" href="#"><img src="https://i1.mifile.cn/a4/xmad_15094337975564_BSRIq.jpg"></a>
+                <a class="jieshao" href="">外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最主要的是性价比高。附图，给客服妹子一</a>
+                <span class="pinglun">来自于 酸小妞～！ 的评价
+</span>
+                <a class="mi" href="">米家车载空气净化器</a>
+                <span class="fenge">|</span>
+                <p class="price">449元</p>
+            </li>
+        </ul>
+        <!--内容部分-->
+        <div class="main">
+            <h3>内容</h3>
+            <ul class="mainpic clearfix">
+                <li>
+                    <p class="title" style="color:orangered;border-top: 1px solid orangered;padding:43px 121px 18px;">图书</p>
+                    <h4><a href="#">哈利·波特与被诅咒的孩子</a></h4>
+                    <a class="jieshao" href="">“哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！                   </a>
+                    <a href=""><img class="mainfoot" src="https://i1.mifile.cn/a4/5e5da924-84e3-4959-9e25-5891cdf30757" alt=""></a>
+                </li>
+                <li>
+                    <p class="title" style="color:blueviolet;border-top: 1px solid blueviolet;padding:43px 100px 18px;">MIUI主题</p>
+                    <h4><a href="#">LINE FRIENDS温暖圣诞主题</a></h4>
+                    <a class="jieshao" href="">超萌超可爱 LINE FRIENDS来袭~</a>
+                    <a href=""><img class="mainfoot" src="https://i1.mifile.cn/a4/xmad_15455375311243_mBvyR.png" alt=""></a>
+                </li>
+                <li>
+                    <p class="title" style="color:yellowgreen;border-top: 1px solid yellowgreen;padding:43px 132px 18px;">游戏</p>
+                    <h4><a href="#">非人学园</a></h4>
+                    <a class="jieshao" href="">脑洞大开的二次元竞技手游</a>
+                    <a href=""><img class="mainfoot" src="https://i1.mifile.cn/a4/xmad_15299832299419_eIPOw.png" alt=""></a>
+                </li>
+                <li style="margin: 0">
+                    <p class="title" style="color:deepskyblue;border-top: 1px solid deepskyblue;padding:43px 128px 18px;">应用</p>
+                    <h4><a href="#">2017金米奖</a></h4>
+                    <a class="jieshao" style="margin-left: 97px;display: block">最优秀的优秀和应用</a>
+                    <a href=""><img class="mainfoot" src="https://i1.mifile.cn/a4/3332da7d-4056-4694-9548-c83b7b3af7d3" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="foot">
+    <div class="foot md">
+        <!--foot上部分-->
+        <div class="footnav">
+            <a href="">预约维修服务</a>
+            <span>|</span>
+            <a href="">7天无理由退货</a>
+            <span>|</span>
+            <a href="">15天免费换货</a>
+            <span>|</span>
+            <a href="">满150元包邮</a>
+            <span>|</span>
+            <a href="">★520余家售后网</a>
+        </div>
+        <!--foot下部分左边-->
+        <div class="footbottom clearfix">
+            <dl>
+                <dt>帮助中心
+                    <dd><a href="">账户管理</a></dd>
+                    <dd><a href="">购物指南</a></dd>
+                    <dd><a href="">订单操作</a></dd>
+                </dt>
+            </dl>
+            <dl>
+                <dt>服务支持
+                <dd><a href="">售后服务</a></dd>
+                <dd><a href="">相关下载</a></dd>
+                <dd><a href="">订单操作</a></dd>
+                </dt>
+            </dl>
+            <dl>
+                <dt>线下门店
+                <dd><a href="">小米之家</a></dd>
+                <dd><a href="">授权网点</a></dd>
+                <dd><a href="">授权体验店</a></dd>
+                </dt>
+            </dl>
+            <dl>
+                <dt>关于小米
+                <dd><a href="">了解小米</a></dd>
+                <dd><a href="">加入小米</a></dd>
+                <dd><a href="">投资者关系</a></dd>
+                </dt>
+            </dl>
+            <dl>
+                <dt>关注我们
+                <dd><a href="">新浪微博</a></dd>
+                <dd><a href="">官方微博</a></dd>
+                <dd><a href="">练习我们</a></dd>
+                </dt>
+            </dl>
+            <dl>
+                <dt>特色服务
+                <dd><a href="">F码通道</a></dd>
+                <dd><a href="">礼物码</a></dd>
+                <dd><a href="">防伪查询</a></dd>
+                </dt>
+            </dl>
+            <!--foot下部分内容-->
+            <div class="footright clearfix">
+                <h5>400-100-5678
+                </h5>
+                <p>周一至周日 8:00-18:00
+                </p>
+                <span>（仅收市话费)</span>
+                <button>联系客服</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

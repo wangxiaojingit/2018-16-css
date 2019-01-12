@@ -1,0 +1,92 @@
+
+*{margin:0;
+    padding:0;
+}
+a{text-decoration: none}
+ol,ul{list-style:none;}
+.clearfix:after{
+    display: block;
+    content: "";
+    visibility: hidden;
+    font-size:0;
+    height:0;
+    clear:both;
+}
+.clearfix{
+    *zoom:1;}
+
+.navigation{
+
+    position: fixed;
+    right:35px;
+    bottom:30px;
+    width:27px;
+    height: 216px;
+}
+.md{
+    width: 1226px;
+}
+.center{
+    height:1888px;
+    background:#e0e0e0;
+    position:absolute;
+    right:50%;
+    margin-right:-613px;
+}
+.navigation1,.navigation2,.navigation3,.navigation4{
+    width: 20px;
+    height: 20px;
+    background:pink;
+    margin-bottom:5px;
+}
+.navigation1{
+    background:url("images/dh1.png") center center no-repeat;
+    background-size:cover;
+}
+.navigation2{
+    background:url("images/dh2.png") center center no-repeat;
+    background-size:cover;
+}
+.navigation3{
+    background:url("images/dh3.png") center center no-repeat;
+    background-size:cover;
+}
+.navigation4{
+    background:url("images/dh4.png") center center no-repeat;
+    background-size:cover;
+}
+.left{
+    height: 460px;
+  width:234px;
+    background:rgba(0,0,0,0.6);
+    font-size:14px;
+    box-sizing: border-box;
+    overflow: hidden;
+    float:left;
+    padding:15px 10px 10px 10px;
+}
+.left .small a{
+    height:42px;
+    width:194px;
+    line-height:42px;
+    color:#fff;
+}
+.small img{
+   display:block;
+    float:right;
+    margin-top:15px}
+.text{
+    height: 42px;
+
+    float:left;
+
+}
+.right{
+    float:right;
+    background:url("images/bluephone.jpg")
+    center center no-repeat;
+    background-size:cover;
+    width: 992px;
+    height: 460px;
+}
+

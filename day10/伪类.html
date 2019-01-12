@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;paddign:0;}
+        ul,ol{list-style: none;}
+        ul li{
+            width:100px;
+            height:100px;
+            background:green;
+            float:left;
+        }
+        ul li{
+            position:relative;
+        }
+        ul li:before{
+            content:"";
+            display: block;
+            width:1px;
+            height:70px;
+            background:red;
+            position:absolute;
+            top:15px;
+            left:0;
+        }
+        /*ul li:nth-child(1):before{*/
+            /*display: none;*/
+        /*}*/
+        ul .noRight:before{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+   <ul>
+       <li class="noRight"></li>
+       <li></li>
+   </ul>
+</body>
+</html>

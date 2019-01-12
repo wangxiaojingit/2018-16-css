@@ -1,0 +1,197 @@
+<!DOCTYPE html><html><head><title>定位：</title><meta charset='utf-8'><link href='https://cdn.maxiang.io/res-min/themes/marxico.css' rel='stylesheet'><style>
+.note-content  {font-family: ADMUI3Lg, 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;}
+
+</style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><ul>
+<li><ul>
+<li><a href="#定位">定位：</a><ul>
+<li><a href="#相对定位relative">相对定位：relative</a></li>
+<li><a href="#绝对定位absolute">绝对定位：absolute</a></li>
+<li><a href="#固定定位">固定定位</a></li>
+<li><a href="#面试题">面试题：</a><ul>
+<li><a href="#如何让一个元素在一个盒子中或者是屏幕中水平居中">如何让一个元素在一个盒子中或者是屏幕中水平居中：</a></li>
+<li><a href="#如何让一个元素在一个盒子中或者是屏幕中垂直居中">如何让一个元素在一个盒子中或者是屏幕中垂直居中：</a></li>
+<li><a href="#如何让一个元素在一个屏幕中水平垂直居中">如何让一个元素在一个屏幕中水平垂直居中：</a></li>
+<li><a href="#border-radius50-变成圆">border-radius:50%;  变成圆</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<p>##第九天css笔记</p>
+
+
+
+<h3 id="定位">定位：</h3>
+
+<ul><li><p>默认的是static</p></li>
+<li><p>相对定位</p></li>
+<li><p>绝对定位</p></li>
+<li><p>固定定位</p></li>
+</ul>
+
+
+
+<h4 id="相对定位relative">相对定位：relative</h4>
+
+<blockquote>
+  <p>特点：（方向值：left、right、top、bottom）</p>
+  
+  <ul><li><p>没有脱离文档流</p></li>
+  <li><p>参照物是自身</p></li>
+  <li><p>相对定位的元素，它的层级大于普通文档流元素的层级（z-index）</p></li>
+  <li><p>当给相对定位的元素同时设置四个方向的值，lef、top、right、bottom的时候，它是按照left、top这两个值进行的。</p></li>
+  <li><p>最重要，最常用的一个作用，就是给绝对定位的元素做参照物。</p></li>
+  </ul>
+  
+  </blockquote>
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line"> <span class="hljs-selector-class">.box</span>{
+</div><div class="hljs-line">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">background</span>:green;
+</div><div class="hljs-line">            <span class="hljs-comment">/*相对定位*/</span>
+</div><div class="hljs-line">            <span class="hljs-attribute">position</span>:relative;
+</div><div class="hljs-line">            <span class="hljs-attribute">top</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">left</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">        }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="绝对定位absolute">绝对定位：absolute</h4>
+
+<blockquote>
+  <p>绝对定位的使用：想让谁绝对定位，就给谁添加position:absolute;同时设置一下方向值，让谁做它的参照物，就给谁添加position:relative; <br>
+  绝对定位的特点：</p>
+  
+  <ul><li><p>1、脱离文档流</p></li>
+  <li><p>2、设置绝对定位元素的层级大于普通文档流的层级</p></li>
+  <li><p>3、如果你不设置参照物的时候，它的参照物是body，如果设置了参照物，它的参照物有一个标准，必须是上级元素，不能是同级元素</p></li>
+  <li><p>4、  查找参照物的时候，只要元素中有position：relative，或者是position:absolute,或者是position：fixed，三者中的任何一个，都可以作为参照物的标准。 也就是说，只要有position：relative、position:absolute、position：fixed中的任何一个就已经满足参照物的特点了，也就不用再设置position：relative。</p></li>
+  <li><p>5、浏览器在查找参照物的时候，是按照就近原则，如果说，绝对定位的元素，它的父亲元素拥有参照物标准（上面的三者之一），它的爷爷元素也拥有，但是浏览器是按照“就近原则”，也就是离它最近的那个就是它的参照物。</p></li>
+  <li><p>6、绝对定位的元素，如果不设置宽度，它的宽度就是自身内容的宽度。如果绝对定位的元素，它的宽度用百分比的时候，它的宽度是参照物，不是父级。</p></li>
+  </ul>
+  
+  </blockquote>
+
+
+<h4 id="固定定位">固定定位</h4>
+
+<blockquote>
+  <p>position:fixed; <br>
+  固定定位主要用来做快速导航，想要谁固定定位，就给谁加position:fixed;它也有四个方向值，它的参照不用设置，就是浏览器窗口。始终相对浏览器窗口不变的。</p>
+</blockquote>
+
+
+
+<h4 id="面试题">面试题：</h4>
+
+
+
+<h5 id="如何让一个元素在一个盒子中或者是屏幕中水平居中">如何让一个元素在一个盒子中或者是屏幕中水平居中：</h5>
+
+<blockquote>
+  <p>给一个元素设置绝对定位，然后设置left：50%；margin-left：负的盒子宽度的一半。</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">       *{
+</div><div class="hljs-line">            <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;<span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>
+</div><div class="hljs-line">        }
+</div><div class="hljs-line">        <span class="hljs-selector-class">.box</span>{
+</div><div class="hljs-line">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">background</span>:pink;
+</div><div class="hljs-line">            <span class="hljs-attribute">position</span>:absolute;
+</div><div class="hljs-line">            <span class="hljs-attribute">left</span>:<span class="hljs-number">50%</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">top</span>:<span class="hljs-number">0</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">margin-left</span>:-<span class="hljs-number">50px</span>;
+</div><div class="hljs-line">        }
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h5 id="如何让一个元素在一个盒子中或者是屏幕中垂直居中">如何让一个元素在一个盒子中或者是屏幕中垂直居中：</h5>
+
+<blockquote>
+  <p>让一个元素绝对定位，然后设置top：50%；margin-top:负的盒子高度的一半</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">     <span class="hljs-selector-class">.box</span>{
+</div><div class="hljs-line">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">background</span>:pink;
+</div><div class="hljs-line">            <span class="hljs-attribute">position</span>:absolute;
+</div><div class="hljs-line">            <span class="hljs-attribute">left</span>:<span class="hljs-number">0</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">top</span>:<span class="hljs-number">50%</span>;
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">            <span class="hljs-attribute">margin-top</span>:-<span class="hljs-number">50px</span>;
+</div><div class="hljs-line">        }
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h5 id="如何让一个元素在一个屏幕中水平垂直居中">如何让一个元素在一个屏幕中水平垂直居中：</h5>
+
+<blockquote>
+  <p>left:50%;top:50%; margin-left:负的盒子的宽度的一半，margin-top：负的盒子高度的一半</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line"> <span class="hljs-selector-class">.box</span>{
+</div><div class="hljs-line">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">background</span>:pink;
+</div><div class="hljs-line">            <span class="hljs-attribute">position</span>:absolute;
+</div><div class="hljs-line">            <span class="hljs-attribute">left</span>:<span class="hljs-number">50%</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">top</span>:<span class="hljs-number">50%</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">margin-left</span>:-<span class="hljs-number">50px</span>;
+</div><div class="hljs-line">            <span class="hljs-attribute">margin-top</span>:-<span class="hljs-number">50px</span>;
+</div><div class="hljs-line">        }
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h5 id="border-radius50-变成圆">border-radius:50%;  变成圆</h5>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-selector-tag">div</span>{</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">background</span>:pink;</span>
+</div><div class="hljs-line"><span class="css">            <span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span>;</span>
+</div><div class="hljs-line"><span class="css">        }</span>
+</div><div class="hljs-line"><span class="css"></span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre></div></body></html>

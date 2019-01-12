@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{text-decoration: none;}
+.clearfix:after{
+    display: block;
+    height: 0;
+    visibility: hidden;
+    content: "";
+    font-size: 0;
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+/*导航条*/
+.topbar{
+    height: 40px;
+    background: #333;
+}
+.topbarMain{
+    width: 1226px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0;
+}
+.topbar .topbarNav{
+    float: left;
+}
+.topbar a, .topbar span{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.topbar a:hover{
+    color: whitesmoke;
+}
+.topbar span{
+    margin: 0 6px;
+}
+.topbar .topbarCart{
+    display: block;
+    float: right;
+    width: 120px;
+    background: #424242;
+    text-align: center;
+    margin-left: 25px;
+}
+.topbar .topbarCart:hover{
+    background: white;
+    color: #ff6700;
+}
+.topbar .topbarInfo{
+    float: right;
+}
+/*小米闪购模块*/
+
+.flashPurchase{
+
+}
+.flashPurchase .fp_main{
+    width: 1226px;
+    margin: 0 auto;
+}
+.mod_title h3{
+    display: inline-block;
+    height: 58px;
+    line-height: 58px;
+    font-weight: 200;
+    font-size: 22px;
+    float: left;
+}
+.flashPurchase .arrow{
+    float: right;
+    width: 70px;
+    height: 25px;
+    background: #fd8c84;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
