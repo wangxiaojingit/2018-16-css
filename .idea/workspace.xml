@@ -2,118 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b66be1-290d-4c44-90ab-5585678f1488" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/arrow1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/arrow2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/baidu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/bj2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/black.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/chuangdian.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/dfb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/dfb22.jfif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/dp1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/erji1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/erji2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/foot1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/foot2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/head.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/jcsg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/jqr1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/lanyaerji1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/lanyaerji2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/log1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/logo2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/phone1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/redmi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/sdlogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/sj614.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/smallp.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/ximi8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/xjr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/xlgylogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/xmbjblogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/xmmx.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/xmss.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/xmxayx.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/yanjing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/images/yusan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/arrow1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/arrow2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/bg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/bg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/bg5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/game.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/gb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/goods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/goods2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/goods3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/hot.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/iphone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/lightning-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/images/video.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/ar1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/ar2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/bg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/f1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/fb1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/flashlight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/hsphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/ig1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/in2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/ph1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/redmi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/story.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/sup.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/time1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/img/xinpin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/images/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/images/bg6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/images/bg7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/images/bg8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/images/icon-slides.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/小米固定定位导航亚宁/images/arrow2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/小米固定定位导航亚宁/images/bluephone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/小米固定定位导航亚宁/images/dh1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/小米固定定位导航亚宁/images/dh2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/小米固定定位导航亚宁/images/dh3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/小米固定定位导航亚宁/images/dh4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/亚宁小米官网练习/小米官网首页多亚宁.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/朝霞小米主页/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/陈俊小米网站练习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day08/作业/雪曼作业/小米网页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/absolute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/absolute1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/absolute2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/absolute3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/absolute4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/border-radius.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/fixed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/font/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/font/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/relative.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/relative2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/relative3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/css/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/css/reset.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/xiaomibanner/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/伪类.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/伪类2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/伪类3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/小米固定定位导航亚宁/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/小米固定定位导航亚宁/小米导航.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/第九天css笔记.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/让一个盒子水平垂直居中.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mi/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mi/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/57466b8c0001389b06000338-228-128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/57552a9a0001778406000338-228-128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/APP下载.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/banner1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/banner2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/listbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/官方维系.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/常见问题.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/疑问解答.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/第一部分.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/第三部分.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/第二部分.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/css/reset.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/省略号.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -128,30 +36,40 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.88828635">
+    <splitter split-orientation="horizontal" split-proportion="0.5780446">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/index.html">
+            <entry file="file://$PROJECT_DIR$/day11/zfpc/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+                <state relative-caret-position="239">
+                  <caret line="141" column="13" lean-forward="true" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#1;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#2;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#3;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#4;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="icon-slides.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/images/icon-slides.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
               </provider>
             </entry>
           </file>
@@ -160,12 +78,36 @@
       <split-second>
         <leaf>
           <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/css/index.css">
+            <entry file="file://$PROJECT_DIR$/day11/zfpc/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="534">
-                  <caret line="172" column="22" lean-forward="true" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+                <state relative-caret-position="634">
+                  <caret line="134" column="22" lean-forward="false" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
                   <folding />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="省略号.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day11/省略号.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="311">
+                  <caret line="17" column="41" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="17" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="listbg.png" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day11/zfpc/images/listbg.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cart.png" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day11/zfpc/images/cart.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
               </provider>
             </entry>
           </file>
@@ -193,6 +135,8 @@
       <find>last</find>
       <find>bannerBox</find>
       <find>blue</find>
+      <find>bannerIn</find>
+      <find>pink</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,9 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day06/float2.html" />
-        <option value="$PROJECT_DIR$/day06/float3.html" />
-        <option value="$PROJECT_DIR$/day06/float的盒子塌陷.html" />
         <option value="$PROJECT_DIR$/day06/伪元素.html" />
         <option value="$PROJECT_DIR$/day06/float的盒子塌陷2.html" />
         <option value="$PROJECT_DIR$/day06/图文混排.html" />
@@ -252,6 +193,9 @@
         <option value="$PROJECT_DIR$/day09/伪类3.html" />
         <option value="$PROJECT_DIR$/day09/xiaomibanner/css/index.css" />
         <option value="$PROJECT_DIR$/day09/xiaomibanner/index.html" />
+        <option value="$PROJECT_DIR$/day11/省略号.html" />
+        <option value="$PROJECT_DIR$/day11/zfpc/css/index.css" />
+        <option value="$PROJECT_DIR$/day11/zfpc/index.html" />
       </list>
     </option>
   </component>
@@ -285,6 +229,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,34 +252,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day09" />
+              <option name="myItemId" value="day11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2018-16-css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2018-16-css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zfpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2018-16-css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2018-16-css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zfpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="F:/reviewJs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\2018-16-css\day09" />
-      <recent name="F:\2018-16-css\day09\xiaomibanner\css" />
-      <recent name="F:\2018-16-css\day09\xiaomibanner\images" />
-      <recent name="F:\2018-16-css\day09\font" />
-      <recent name="F:\2018-16-css\day08\作业" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\2018-16-css" />
       <recent name="F:\2018-16-css\day07\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2018-16-css\day11\zfpc\images" />
+      <recent name="F:\2018-16-css\day11\zfpc\css" />
+      <recent name="F:\2018-16-css\day09" />
+      <recent name="F:\2018-16-css\day09\xiaomibanner\css" />
+      <recent name="F:\2018-16-css\day09\xiaomibanner\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -443,16 +427,19 @@
       <workItem from="1546996999608" duration="23874000" />
       <workItem from="1547169766555" duration="23963000" />
       <workItem from="1547256602737" duration="19216000" />
+      <workItem from="1547297344328" duration="480000" />
+      <workItem from="1547434463345" duration="17273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197594000" />
+    <option name="totallyTimeSpent" value="215347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3119403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12985075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -499,96 +486,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/QQ下载/547154109/FileRecv/手机模块.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/xueman/手机模块.html" />
-    <entry file="file://$PROJECT_DIR$/day08/xueman/1/index.html" />
-    <entry file="file://$PROJECT_DIR$/day08/小米/nth-child.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/小米练习/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/小米练习/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/小米/images/bg5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/小米/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/小米/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="251" column="1" lean-forward="true" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/骆娜娜table作业.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="55" column="36" lean-forward="true" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/作业/作业1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/作业/作业2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06/课堂练习/练习1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/课堂练习加作业/作业1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mi/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mi/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day08/作业/亚宁小米官网练习/小米官网首页多亚宁.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -677,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="13" column="18" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="13" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,45 +676,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-72">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/伪类3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-          <folding>
-            <element signature="e#689#729#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/images/icon-slides.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/伪类2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/伪类.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/伪类3.html" />
+    <entry file="file://$PROJECT_DIR$/day09/伪类2.html" />
+    <entry file="file://$PROJECT_DIR$/day09/伪类.html" />
     <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="36">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -835,11 +697,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/images/icon-slides.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="172" column="22" lean-forward="true" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+        <state relative-caret-position="2688">
+          <caret line="172" column="22" lean-forward="false" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/css/reset.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/常见问题.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/官方维系.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/cart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/APP下载.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/57552a9a0001778406000338-228-128.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/57466b8c0001389b06000338-228-128.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/banner2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/banner1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/listbg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/bg2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/省略号.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="134" column="22" lean-forward="false" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11/zfpc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="141" column="13" lean-forward="true" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
