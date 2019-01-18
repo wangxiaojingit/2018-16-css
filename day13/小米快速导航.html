@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background:gold;
+        }
+        *{margin:0;padding:0;}
+        a{
+            text-decoration: none;
+        }
+        ul,ol{list-style: none;}
+        .sliderBar{
+            width:27px;
+            height:159px;
+            border:1px solid red;
+            position:fixed;
+            left:50%;
+            bottom:125px;
+            margin-left:613px;
+        }
+        .sliderBar>li{
+
+            border-bottom:1px solid red;
+        }
+        .sliderBar>li:last-child{
+            bordedr-bottom:none;
+        }
+        .sliderBar>li>a{
+            height:39px;
+            display:block;
+        }
+        .phone {
+            background:url("images/phone1.png") center center no-repeat;
+            background-size:20px 20px;
+        }
+        .center {
+              background:url("images/center1.png") center center no-repeat;
+              background-size:20px 20px;
+          }
+        .listen {
+            background:url("images/listen1.png") center center no-repeat;
+            background-size:20px 20px;
+        }
+        .cart {
+            background:url("images/cart1.png") center center no-repeat;
+            background-size:20px 20px;
+        }
+        .sliderBar li{
+            position:relative;
+        }
+        .sliderBar .erweima {
+            width: 130px;
+            height: 189px;
+            border:1px solid #f5f5f5;
+            background: #fff;
+            position: absolute;
+            top: 0;
+            left: -140px;
+
+
+        }
+        .sliderBar .erweima{
+           display:none;
+        }
+        .sliderBar .erweima img{
+            width:100px;
+            height:100px;
+            margin:20px 14px;
+            display:block;
+        }
+
+        .arrow{
+            width:7px;
+            height:12px;
+            position:absolute;
+            top:10px;
+            right:-7px;
+            background:url("images/arrow.png") center center no-repeat;
+        }
+        .erweima p{
+            font-size:14px;
+            color:#757575;
+            text-align: center;
+        }
+        .sliderBar .center .erweima,.sliderBar .listen .erweima,.sliderBar .cart .erweima{
+            width:auto;
+            height:auto;
+            padding:5px 10px;
+            left: -86px;
+
+        }
+        .sliderBar .cart .erweima{
+            left:-90px;
+        }
+        .sliderBar>li:hover .erweima{
+            display: block;
+        }
+        .sliderBar>li:nth-child(1):hover{
+            background-image:url("images/phone2.png");
+
+        }
+        .sliderBar>li:nth-child(2):hover{
+            background-image:url("images/center2.png");
+
+        }
+        .sliderBar>li:nth-child(3):hover{
+            background-image:url("images/listen2.png");
+
+        }
+        .sliderBar>li:nth-child(4):hover{
+            background-image:url("images/cart2.png");
+
+        }
+        /*.center .centerBar{*/
+            /*padding:5px 10px;*/
+            /*background:#fff;*/
+            /*border:1px solid #f5f5f5;*/
+            /*position:absolute;*/
+            /**/
+        /*}*/
+    </style >
+</head>
+<body>
+   <ul class="sliderBar">
+       <li class="phone">
+           <a href=""></a>
+           <a href="" class="erweima">
+               <div class="arrow"></div>
+               <img src="images/ewm.png" alt="">
+               <p>手机扫一扫</p>
+               <p>一分赢好礼</p>
+           </a>
+       </li>
+       <li class="center">
+           <a href=""></a>
+           <a href="" class="erweima">
+               <div class="arrow"></div>
+               <p>个人中心</p>
+           </a>
+       </li>
+       <li class="listen">
+           <a href=""></a>
+           <a href="" class="erweima">
+               <div class="arrow"></div>
+               <p>联系客服</p>
+           </a>
+       </li>
+       <li class="cart">
+           <a href=""></a>
+           <a href="" class="erweima">
+               <div class="arrow"></div>
+               <p>购物车(0)</p>
+           </a>
+       </li>
+   </ul>
+</body>
+</html>

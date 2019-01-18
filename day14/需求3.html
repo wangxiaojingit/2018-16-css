@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0}
+        .box{
+            width:100px;
+            height:100px;
+            background:green;
+        }
+        @media screen and (min-width:320px) {
+            .box:after{
+                content:"iphone4"
+            }
+        }
+        @media screen and (min-width:375px) {
+            .box:after{
+                content:"iphone6"
+            }
+        }
+        @media screen and (min-width:414px) {
+            .box:after{
+                content:"hone6Plus"
+            }
+        }
+        @media screen and (min-width:768px) {
+            .box:after{
+                content:"pad"
+            }
+        }
+        @media screen and (min-width:1200px) {
+            .box:after{
+                content:"pc"
+            }
+        }
+    </style>
+</head>
+<body>
+<!--
+         需求：大于等于1200px的时候 pc
+             大于等于768px 的时候 pad
+             大于等于414px 的时候 iphone6Plus
+             大于等于375px 的时候 iphone6
+             大于等于320px 的时候 iphone4
+
+-->
+
+ <div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0}
+        .box{
+            width:100px;
+            height:100px;
+            background:green;
+        }
+        .box p{
+            display: none;
+        }
+        @media screen and (min-width:320px) {
+            .main .box p{
+                display: none;
+            }
+            .box>p:nth-child(1){
+                display:block;
+            }
+        }
+        @media screen and (min-width:375px) {
+            .main .box p{
+                display: none;
+            }
+            .box>p:nth-child(2){
+                display:block;
+            }
+        }
+        @media screen and (min-width:414px) {
+            .main .box p{
+                display: none;
+            }
+            .box>p:nth-child(3){
+                display:block;
+            }
+        }
+        @media screen and (min-width:768px) {
+           .main .box p{
+                display: none;
+            }
+             .box>p:nth-child(4){
+                display:block;
+            }
+        }
+        @media screen and (min-width:1200px) {
+            .main .box p{
+                display: none;
+            }
+            .box>p:nth-child(5){
+                display:block;
+            }
+        }
+    </style>
+</head>
+<body>
+<!--
+         需求：大于等于1200px的时候 pc
+             大于等于768px 的时候 pad
+             大于等于414px 的时候 iphone6Plus
+             大于等于375px 的时候 iphone6
+             大于等于320px 的时候 iphone4
+
+-->
+<div class="main">
+    <div class="box">
+        <p>iphone4</p>
+        <p>iphone6</p>
+        <p>iphone6Plus</p>
+        <p>pad</p>
+        <p>pc</p>
+    </div>
+
+</div>
+</body>
+</html>

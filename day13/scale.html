@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rotate</title>
+    <style>
+        *{margin:0;padding:0;}
+        .boxWrapper{
+            width:200px;
+            height:200px;
+            overflow: hidden;
+            border:1px solid red;
+
+        }
+        .box{
+            width:200px;
+            height:200px;
+            background:url("images/girl.jpg") center center no-repeat;
+            background-size:cover;
+            transition: all .5s linear;
+
+
+        }
+        .boxWrapper:hover .box{
+
+            transform:scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+   <div class="boxWrapper">
+       <div class="box"></div>
+   </div>
+</body>
+</html>

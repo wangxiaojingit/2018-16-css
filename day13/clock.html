@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0;}
+        .clock{
+            width:10px;
+            height:300px;
+            background:#000;
+            margin:0 auto;
+            position:relative;
+            transform-origin: center top;
+            animation: clock 2s ease 1s infinite;
+        }
+        .ball{
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+            background:dodgerblue;
+            position:absolute;
+            left: -20px;
+            bottom: -50px;
+        }
+
+        @keyframes clock {
+            0%{
+                transform:rotate(-45deg);
+            }
+            25%{
+                transform:rotate(0deg);
+            }
+            50%{
+                transform:rotate(45deg);
+            }
+            75%{
+                transform:rotate(0deg);
+            }
+            100%{
+                transform:rotate(-45deg);
+            }
+        }
+    </style>
+</head>
+<body>
+  <div class="clock">
+      <div class="ball"></div>
+  </div>
+</body>
+</html>

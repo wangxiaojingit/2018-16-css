@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       /*
+        如果你们用插入图片的时候，默认图片是行内块，它与父盒子底边之间会有几像素的间隙，为了消除这个间隙我们通常会把img转换成display：block；
+
+       */
+        *{
+            margin:0;padding:0;
+        }
+        div{
+            width:255px;
+            /*font-size:0;*/
+            border:1px solid pink;
+
+        }
+        img{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+  <div>
+      <img src="zfpc/images/listbg.png" alt="">
+  </div>
+</body>
+</html>

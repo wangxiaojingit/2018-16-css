@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0;}
+        html,body{
+            height:100%;
+
+            background-size:cover;
+        }
+        body{
+            background:url(images/bg.webp) center center no-repeat;
+            overflow:hidden;
+        }
+        .clearfix:after {
+            display: block;
+            height: 0;
+            content: "";
+            clear: both;
+            overflow:hidden;
+            visibility:hidden;
+            font-size:0;
+        }
+        .clearfix{
+            *zoom:1
+        }
+        .main{
+            width:780px;
+            margin:285px auto 0 auto;
+        }
+        .main>div{
+            float:left;
+        }
+        .west-1,.west-2{
+            width:200px;
+            height:180px;
+        }
+        .west-1{
+            background:url("images/west1.png") no-repeat;
+            animation: west1 1s steps(8) infinite;
+        }
+        .west-2{
+            background:url("images/west_02.png") no-repeat;
+            animation: west1 1s steps(8) infinite;
+        }
+        .west-3{
+            width:170px;
+            height:240px;
+            background:url("images/west_03.png") no-repeat;
+            margin-top:-38px;
+            animation: west3 1s steps(8) infinite;
+        }
+        .west-4{
+            width:210px;
+            height:200px;
+            background:url("images/west_04.png") no-repeat;
+            animation: west4 1s steps(8) infinite;
+        }
+
+        @keyframes west1 {
+            0%{
+                background-position:0 0;
+            }
+            100%{
+                background-position:-1600px 0;
+            }
+        }
+        @keyframes west3 {
+              0%{
+                  background-position:0 0;
+              }
+              100%{
+                  background-position:-1360px 0;
+              }
+          }
+        @keyframes west4 {
+            0%{
+                background-position:0 0;
+            }
+            100%{
+                background-position:-1680px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<audio src="vod.mp3"  autoplay controls></audio>
+   <div class="main clearfix">
+       <div class="west-1"></div>
+       <div class="west-2"></div>
+       <div class="west-3"></div>
+       <div class="west-4"></div>
+   </div>
+</body>
+</html>

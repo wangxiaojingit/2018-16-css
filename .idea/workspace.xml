@@ -2,26 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b66be1-290d-4c44-90ab-5585678f1488" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/57466b8c0001389b06000338-228-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/57552a9a0001778406000338-228-128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/APP下载.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/banner1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/banner2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/listbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/官方维系.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/常见问题.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/疑问解答.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/第一部分.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/第三部分.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/images/第二部分.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/css/reset.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/zfpc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/省略号.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/98a23aae70f25798192693f21c4d4039.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/cart1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/cart2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/center1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/center2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/listen1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/listen2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/phone1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/images/phone2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/APP下载.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/banner1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/banner2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/bg5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/bg6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/bg7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/bg8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/bg9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/listbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/logo2_07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/官方维系.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/常见问题.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/images/疑问解答.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/98a23aae70f25798192693f21c4d4039.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/bg.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/cart1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/cart2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/center1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/center2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/ewm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/girl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/listen1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/listen2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/phone1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/phone2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/west1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/west_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/west_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/images/west_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/vod.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/source/212.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/source/qt.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/img.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/css/reset.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/zfpc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/小米快速导航.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/省略号.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/animation-fill-mode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/animation-fill-mode2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/animation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/clock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/dead.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/rotate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/scale.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/skew.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/text2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/transform-origin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/transition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/translate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/xy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/小米快速导航.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/audio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/border-radius.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/box-shadow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/h5新增的标签.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/html5新增的表单元素.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/text-shadow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/媒体查询.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/径向渐变.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/渐变.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/第十四天css笔记.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/视口.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/需求1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/需求2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/需求3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/需求33.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/需求4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/需求4讲解.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/需求5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,84 +106,98 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5780446">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day11/zfpc/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
-                  <caret line="141" column="13" lean-forward="true" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
-                  <folding>
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#2;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#3;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#4;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day11/zfpc/css/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="634">
-                  <caret line="134" column="22" lean-forward="false" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="省略号.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day11/省略号.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="311">
-                  <caret line="17" column="41" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="17" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="listbg.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day11/zfpc/images/listbg.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cart.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day11/zfpc/images/cart.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="需求3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day14/需求3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="需求4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day14/需求4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="边练习2.html" pinned="false" current-in-tab="false">
+        <entry file="file://F:/QQ下载/547154109/FileRecv/边练习2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="练习2.html" pinned="false" current-in-tab="false">
+        <entry file="file://F:/QQ下载/547154109/FileRecv/练习2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-252">
+              <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="媒体查询3.html" pinned="false" current-in-tab="false">
+        <entry file="file://F:/QQ下载/547154109/FileRecv/媒体查询3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1224">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="需求33.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day14/需求33.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day14/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="需求5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day14/需求5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="需求4讲解.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day14/需求4讲解.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,6 +221,9 @@
       <find>blue</find>
       <find>bannerIn</find>
       <find>pink</find>
+      <find>hotBoxIn3</find>
+      <find>clear</find>
+      <find>erweima</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,46 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day06/伪元素.html" />
-        <option value="$PROJECT_DIR$/day06/float的盒子塌陷2.html" />
-        <option value="$PROJECT_DIR$/day06/图文混排.html" />
-        <option value="$PROJECT_DIR$/day06/float脱离文档流.html" />
-        <option value="$PROJECT_DIR$/day06/练习1.html" />
-        <option value="$PROJECT_DIR$/day06/练习1.1.html" />
-        <option value="$PROJECT_DIR$/day06/练习2.html" />
-        <option value="$PROJECT_DIR$/day06/练习3.html" />
-        <option value="$PROJECT_DIR$/day06/练习3-2.html" />
-        <option value="$PROJECT_DIR$/day06/路径.html" />
-        <option value="$PROJECT_DIR$/day06/text/images.html" />
-        <option value="$PROJECT_DIR$/day07/小米导航/index.html" />
-        <option value="$PROJECT_DIR$/day07/background.html" />
-        <option value="$PROJECT_DIR$/day07/background-attachment.html" />
-        <option value="$PROJECT_DIR$/day07/background-repeat.html" />
-        <option value="$PROJECT_DIR$/day07/background-sie.html" />
-        <option value="$PROJECT_DIR$/day07/background-size.html" />
-        <option value="$PROJECT_DIR$/day07/小米/index.html" />
-        <option value="$PROJECT_DIR$/day08/xueman/手机模块.html" />
-        <option value="$PROJECT_DIR$/day08/小米/nth-child.html" />
-        <option value="$PROJECT_DIR$/day08/小米练习/css/index.css" />
-        <option value="$PROJECT_DIR$/day08/小米练习/index.html" />
-        <option value="$PROJECT_DIR$/day08/小米/index.html" />
-        <option value="$PROJECT_DIR$/day08/小米/css/index.css" />
-        <option value="$USER_HOME$/Desktop/骆娜娜table作业.html" />
-        <option value="$PROJECT_DIR$/mi/index.html" />
-        <option value="$PROJECT_DIR$/day09/relative.html" />
-        <option value="$PROJECT_DIR$/day09/relative2.html" />
-        <option value="$PROJECT_DIR$/day09/relative3.html" />
-        <option value="$PROJECT_DIR$/day09/absolute.html" />
-        <option value="$PROJECT_DIR$/day09/absolute1.html" />
-        <option value="$PROJECT_DIR$/day09/absolute2.html" />
-        <option value="$PROJECT_DIR$/day09/absolute3.html" />
-        <option value="$PROJECT_DIR$/day09/absolut4.html" />
-        <option value="$PROJECT_DIR$/day09/absolute4.html" />
-        <option value="$PROJECT_DIR$/day09/fixed.html" />
-        <option value="$PROJECT_DIR$/day08/作业/雪曼作业/index.css" />
-        <option value="$PROJECT_DIR$/day09/让一个盒子水平垂直居中.html" />
-        <option value="$PROJECT_DIR$/day09/test.html" />
-        <option value="$PROJECT_DIR$/day09/xiaomibanner/css/reset.css" />
         <option value="$PROJECT_DIR$/day09/xiaomibanner/css/reset.min.css" />
         <option value="$PROJECT_DIR$/day09/border-radius.html" />
         <option value="$PROJECT_DIR$/day09/font/index.html" />
@@ -196,6 +243,46 @@
         <option value="$PROJECT_DIR$/day11/省略号.html" />
         <option value="$PROJECT_DIR$/day11/zfpc/css/index.css" />
         <option value="$PROJECT_DIR$/day11/zfpc/index.html" />
+        <option value="$PROJECT_DIR$/day12/img.html" />
+        <option value="$PROJECT_DIR$/day12/zfpc/index.html" />
+        <option value="$PROJECT_DIR$/day12/zfpc/css/index.css" />
+        <option value="$PROJECT_DIR$/day12/小米快速导航.html" />
+        <option value="$PROJECT_DIR$/day13/text.html" />
+        <option value="$PROJECT_DIR$/day13/text2.html" />
+        <option value="$PROJECT_DIR$/day13/小米快速导航.html" />
+        <option value="$USER_HOME$/Desktop/练习3.html" />
+        <option value="$PROJECT_DIR$/day13/translate.html" />
+        <option value="$PROJECT_DIR$/day13/rotate.html" />
+        <option value="$PROJECT_DIR$/day13/scale.html" />
+        <option value="$PROJECT_DIR$/day13/skew.html" />
+        <option value="$PROJECT_DIR$/day13/transform-origin.html" />
+        <option value="$PROJECT_DIR$/day13/transition.html" />
+        <option value="$PROJECT_DIR$/day13/animation.html" />
+        <option value="$PROJECT_DIR$/day13/clock.html" />
+        <option value="$PROJECT_DIR$/day13/animation-fill-mode2.html" />
+        <option value="$PROJECT_DIR$/day13/animation-fill-mode.html" />
+        <option value="$PROJECT_DIR$/day13/dead.html" />
+        <option value="$PROJECT_DIR$/day13/xy.html" />
+        <option value="$PROJECT_DIR$/day14/h5新增的标签.html" />
+        <option value="$PROJECT_DIR$/day14/test.html" />
+        <option value="$PROJECT_DIR$/day14/video.html" />
+        <option value="$PROJECT_DIR$/day14/audio.html" />
+        <option value="$PROJECT_DIR$/day14/html5新增的表单元素.html" />
+        <option value="$PROJECT_DIR$/day14/border-radius.html" />
+        <option value="$PROJECT_DIR$/day14/box-shadow.html" />
+        <option value="$PROJECT_DIR$/day14/text-shadow.html" />
+        <option value="$PROJECT_DIR$/day14/渐变.html" />
+        <option value="$PROJECT_DIR$/day14/径向渐变.html" />
+        <option value="$PROJECT_DIR$/day14/视口.html" />
+        <option value="$PROJECT_DIR$/day14/媒体查询.html" />
+        <option value="$PROJECT_DIR$/day14/需求1.html" />
+        <option value="$PROJECT_DIR$/day14/需求2.html" />
+        <option value="$PROJECT_DIR$/day14/需求3.html" />
+        <option value="$PROJECT_DIR$/day14/需求4.html" />
+        <option value="F:/QQ下载/547154109/FileRecv/边练习2.html" />
+        <option value="F:/QQ下载/547154109/FileRecv/练习2.html" />
+        <option value="$PROJECT_DIR$/day14/需求33.html" />
+        <option value="$PROJECT_DIR$/day14/需求4讲解.html" />
       </list>
     </option>
   </component>
@@ -207,7 +294,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1378" />
+    <option name="width" value="1370" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -228,8 +315,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,47 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2018-16-css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2018-16-css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zfpc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2018-16-css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2018-16-css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zfpc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="day14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,22 +350,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/2018-15-css/15ClassReady1/day12" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2018-16-css\day14" />
+      <recent name="F:\2018-16-css\day14\source" />
+      <recent name="F:\2018-16-css\day13" />
+      <recent name="F:\2018-16-css\day13\images" />
+      <recent name="F:\2018-16-css\day12\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\2018-16-css" />
       <recent name="F:\2018-16-css\day07\images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\2018-16-css\day11\zfpc\images" />
-      <recent name="F:\2018-16-css\day11\zfpc\css" />
-      <recent name="F:\2018-16-css\day09" />
-      <recent name="F:\2018-16-css\day09\xiaomibanner\css" />
-      <recent name="F:\2018-16-css\day09\xiaomibanner\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -429,17 +476,21 @@
       <workItem from="1547256602737" duration="19216000" />
       <workItem from="1547297344328" duration="480000" />
       <workItem from="1547434463345" duration="17273000" />
+      <workItem from="1547515394823" duration="20517000" />
+      <workItem from="1547557494397" duration="1704000" />
+      <workItem from="1547601726409" duration="21402000" />
+      <workItem from="1547774485004" duration="21506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215347000" />
+    <option name="totallyTimeSpent" value="280476000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12985075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2087087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -486,231 +537,186 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day08/作业/亚宁小米官网练习/小米官网首页多亚宁.html">
+    <entry file="file://$PROJECT_DIR$/day12/images/phone1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="167">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day08/作业/陈俊小米网站练习.html">
+    <entry file="file://$PROJECT_DIR$/day13/text2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day08/作业/朝霞小米主页/css/index.css">
+    <entry file="file://$PROJECT_DIR$/day13/images/arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12/小米快速导航.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="335">
+          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day08/作业/朝霞小米主页/index.html">
+    <entry file="file://$USER_HOME$/Desktop/练习3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="211">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/relative.html">
+    <entry file="file://$PROJECT_DIR$/day13/小米快速导航.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="291">
+          <caret line="109" column="55" lean-forward="true" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/relative2.html">
+    <entry file="file://F:/QQ下载/547154109/FileRecv/skew.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="972">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/animation-fill-mode2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/animation-fill-mode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/clock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/relative3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/作业/雪曼作业/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="380" column="16" lean-forward="true" selection-start-line="380" selection-start-column="16" selection-end-line="380" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/作业/雪曼作业/小米网页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/小米固定定位导航亚宁/小米导航.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/让一个盒子水平垂直居中.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/fixed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/absolute4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/absolute3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/absolute2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/absolute1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/absolute.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/css/reset.css" />
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/css/reset.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/QQ下载/547154109/FileRecv/index (1).css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/第九天css笔记.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/border-radius.html">
+    <entry file="file://$PROJECT_DIR$/day13/animation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/phone/font_1012281_4cd5gpqyr2k/demo_index.html">
+    <entry file="file://$PROJECT_DIR$/day13/transition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="288">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/font/index.html">
+    <entry file="file://$PROJECT_DIR$/day13/transform-origin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="311">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/font/iconfont.css">
+    <entry file="file://$PROJECT_DIR$/day13/skew.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/images/bg6.jpg">
+    <entry file="file://$PROJECT_DIR$/day13/dead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/scale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/images/sprites.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/images/bg7.jpg">
+    <entry file="file://$PROJECT_DIR$/day13/images/west1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/css/iconfont.css">
+    <entry file="file://$PROJECT_DIR$/day12/zfpc/css/reset.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="172" column="0" lean-forward="true" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/伪类3.html" />
-    <entry file="file://$PROJECT_DIR$/day09/伪类2.html" />
-    <entry file="file://$PROJECT_DIR$/day09/伪类.html" />
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/images/icon-slides.png">
+    <entry file="file://$PROJECT_DIR$/day13/images/west_02.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/xiaomibanner/css/index.css">
+    <entry file="file://$PROJECT_DIR$/day13/images/west_03.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/images/west_04.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/xy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="172" column="22" lean-forward="false" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+        <state relative-caret-position="89">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/css/reset.min.css">
+    <entry file="file://$PROJECT_DIR$/day13/rotate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/translate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/h5新增的标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/547154109/FileRecv/随堂练习 (1).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -718,111 +724,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/常见问题.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/官方维系.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/cart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/APP下载.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/57552a9a0001778406000338-228-128.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/57466b8c0001389b06000338-228-128.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/banner2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/arrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/banner1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/listbg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/images/bg2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/省略号.html">
+    <entry file="file://$PROJECT_DIR$/day14/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="383">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/css/index.css">
+    <entry file="file://$PROJECT_DIR$/day14/audio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="134" column="22" lean-forward="false" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+        <state relative-caret-position="419">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day11/zfpc/index.html">
+    <entry file="file://$PROJECT_DIR$/day14/html5新增的表单元素.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="141" column="13" lean-forward="true" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
+        <state relative-caret-position="275">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/border-radius.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/box-shadow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/text-shadow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/径向渐变.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/渐变.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12/zfpc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="76" column="8" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#h3#0;n#div#0;n#div#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#2;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#3;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#4;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/视口.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/媒体查询.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/需求1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/需求2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/需求3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/需求4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/547154109/FileRecv/边练习2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/547154109/FileRecv/练习2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/547154109/FileRecv/媒体查询3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/需求33.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/需求5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/第十四天css笔记.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="3" column="69" lean-forward="true" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/需求4讲解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

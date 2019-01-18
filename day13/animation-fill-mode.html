@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+        .ball{
+            width:200px;
+            height:200px;
+            background:pink;
+            border-radius: 50%;
+            margin:0 auto;
+            animation: change 1s linear 2s backwards ;
+        }
+        @keyframes change {
+            0%{
+                transform: scale(.5);
+            }
+
+            100%{
+                transform: scale(0);
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="ball"></div>
+</body>
+</html>
