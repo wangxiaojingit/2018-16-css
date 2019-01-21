@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        html,body,.main{
+            height:100%;
+        }
+        .main li{
+            width:33.33%;
+            height:33.33%;
+            float:left;
+            background:pink;
+            position:relative;
+            overflow:hidden;
+        }
+        .main li:nth-child(2n+1) {
+            background: dodgerblue;
+        }
+        .main li:nth-child(2n+2){
+            background:darkorange;
+        }
+        .main>li>.pic,.main>li>video{
+            width:100%;
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+        }
+        .main>li>.pic{
+            height:100%;
+            background:url("zirantang.png") center center no-repeat;
+            background-size:cover;
+        }
+        .main>li>video{
+            width:100%;
+            z-index:2;
+            display:none;
+
+        }
+        .main>li:hover video {
+            display: block;
+        }
+        .main>li:hover .pic{
+            display: none;
+
+        }
+    </style>
+</head>
+<body>
+   <ul class="main">
+       <li>
+          <div class="pic"></div>
+          <video src="video.mp4" autoplay></video>
+       </li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+   </ul>
+</body>
+</html>
